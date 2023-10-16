@@ -12,7 +12,7 @@ Welcome to my Data Science portfolio! This repository contains a collection of d
 
 Description: This project involves building predictive models using the Scikit-Learn library. I've worked on a classification problem to predict customer churn for a telecom company. The project covers data preprocessing, feature engineering, model selection, and evaluation.
 
-[Link to Project 1](Project1/)
+[Link to Project 1](Project 1/)
 
 ## Project 2: Data Visualization with Matplotlib
 
