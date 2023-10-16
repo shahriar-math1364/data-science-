@@ -4,7 +4,7 @@ Welcome to my Data Science portfolio! This repository contains a collection of d
 
 ## Table of Contents
 
-- [Project 1: Predictive Modeling with Scikit-Learn](#project-1-predictive-modeling-with-scikit-learn)
+- [Project 1: Predictive Modeling with Scikit-Learn](#Project 1)
 - [Project 2: Data Visualization with Matplotlib](#project-2-data-visualization-with-matplotlib)
 - [Project 3: Natural Language Processing with NLTK](#project-3-natural-language-processing-with-nltk)
 
