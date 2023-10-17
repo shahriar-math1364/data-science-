@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Learning Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(45deg, #3498db, #8e44ad); /* Nice gradient background */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            margin: 20px;
+            max-width: 600px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Machine Learning Prediction</h1>
+        <form method="POST" action="/predict">
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="" disabled selected>Select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br>
+
+            <label for="occupation">Occupation:</label>
+            <select id="occupation" name="occupation">
+                <option value="" disabled selected>Select</option>
+                <option value="accountant">Accountant</option>
+                <option value="doctor">Doctor</option>
+                <option value="engineer">Engineer</option>
+                <option value="lawyer">Lawyer</option>
+                <option value="manager">Manager</option>
+                <option value="nurse">Nurse</option>
+                <option value="sales representative">Sales Representative</option>
+                <option value="salesperson">Salesperson</option>
+                <option value="scientist">Scientist</option>
+                <option value="software engineer">Software Engineer</option>
+                <option value="teacher">Teacher</option>
+            </select><br>
+
+            <label for="age">Age:</label>
+            <select id="age" name="age">
+                <option value="" disabled selected>Select</option>
+                <!-- Include options for ages 28 to 58 -->
+                {% for i in range(28, 59) %}
+                <option value="{{ i }}">{{ i }}</option>
+                {% endfor %}
+                <option value="27 or younger">27 or younger</option>
+                <option value="59 or older">59 or older</option>
+            </select><br>
+
+            <label for="sleep_duration">Sleep Duration:</label>
+            <select id="sleep_duration" name="sleep_duration">
+                <option value="" disabled selected>Select</option>
+                <option value="4 or less">4 or less</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9 or above">9 or above</option>
+            </select><br>
+
+            <label for="quality_of_sleep">Quality of Sleep:</label>
+            <select id="quality_of_sleep" name="quality_of_sleep">
+                <option value="" disabled selected>Select</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select><br>
+
+            <input type="submit" value="Predict">
+        </form>
+    </div>
+</body>
+</html>
