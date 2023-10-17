@@ -6,8 +6,8 @@ Welcome to my Data Science portfolio! This repository contains a collection of d
 
 - [Project 1: Used Car Price Prediction](#project-1-used-car-price-prediction)
 - [Project 2: Leading Predicting Factors in Stress Level](#project-2-leading-predicting-factors-in-stress-level)
-- [Project 3: Women Singers Image Recognition Using SVM](#project-3-natural-language-processing-with-nltk)
-- [Project 4: Tomato Disease Classification using CNN() 
+- [Project 3: Women Singers Image Recognition Using SVM](#project-3-women-singers-image-recognition)
+- [Project 4: Tomato Disease Classification using CNN(#project4-tomato-disease-classification-using-cnn) 
 
 ## Project 1: Used Car Price Prediction
 
@@ -25,6 +25,13 @@ Description: In this project, I explored data visualization techniques using Mat
 Description: This project focuses on natural language processing (NLP) using the NLTK library in Python. I've built a sentiment analysis model to classify movie reviews as positive or negative. The project includes text preprocessing, feature extraction, and model training.
 
 [Link to Project 3](project3/)
+
+
+## Project 4: Tomato Disease Classification Using CNN  
+
+Description: 
+
+[Link to Project 4](project4/)
 
 ## About Me
 
