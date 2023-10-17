@@ -1,6 +1,6 @@
 # Used Car Price Regression Project
 
-![Shakira](usedcar)
+![Shakira](https://github.com/shahriar-math1364/data-science-/blob/main/Project1/usedcar.jpg)
 
 ## Project Overview
 A brief introduction to your project. Describe what the project is about and its main objectives.
