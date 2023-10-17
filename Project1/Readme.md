@@ -32,7 +32,7 @@ Briefly introduce yourself, your background, and your interests in the field of 
 
 ## Connect with Me
 
-- [LinkedIn]([https://www.linkedin.com/in/shahriar-mirzadeh-4a90b861/])
+- [LinkedIn](https://www.linkedin.com/in/shahriar-mirzadeh-4a90b861/)
 
 
 ## License
