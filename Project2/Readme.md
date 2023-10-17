@@ -1,6 +1,6 @@
 # Stress Predictor Classification Project
 
-![Project Image/GIF]
+![Stress](https://github.com/shahriar-math1364/data-science-/blob/main/Project2/stress.jpg)
 
 ## Project Overview
 This classification project aims to identify the leading predictors of stress in individuals. Stress is a common issue in today's fast-paced world, and understanding the factors that contribute to it can help individuals and organizations mitigate its effects. The project's primary goal is to build a predictive model that can classify whether an individual is likely to experience stress based on various features and variables.
