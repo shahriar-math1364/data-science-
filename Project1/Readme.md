@@ -1,6 +1,6 @@
 # Used Car Price Regression Project
 
-![Project Image/GIF]
+![usedcar.JPG]
 
 ## Project Overview
 A brief introduction to your project. Describe what the project is about and its main objectives.
