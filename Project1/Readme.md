@@ -1,6 +1,6 @@
 # Data Science Portfolio
 
-Welcome to my Data Science portfolio! This repository contains a collection of data science projects and related work that I've completed. Each project is briefly described below with a link to the full project details. If you have any questions or would like to collaborate, feel free to [contact me](mailto:your.email@example.com).
+Welcome to my Data Science portfolio! This repository contains a collection of data science projects and related work that I've completed. Each project is briefly described below with a link to the full project details. If you have any questions or would like to collaborate, feel free to [contact me](mirzadsr@ucmail.uc.edu).
 
 ## Table of Contents
 
@@ -32,8 +32,8 @@ Briefly introduce yourself, your background, and your interests in the field of 
 
 ## Connect with Me
 
-- [LinkedIn](https://www.linkedin.com/in/yourusername)
-- [Twitter](https://twitter.com/yourusername)
+- [LinkedIn](https://www.linkedin.com/in/shahriar-mirzadeh-4a90b861/)
+
 
 ## License
 
