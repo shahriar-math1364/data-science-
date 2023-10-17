@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Price Estimation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+
+        form {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Car Price Prediction</h1>
+    <form method="POST" action="/predict">
+        <label for="odometer">Odometer Reading</label>
+        <select name="odometer" id="odometer">
+            <option value=" " >Select</option>
+            <option value="0-10000">0 - 10,000 miles</option>
+            <option value="10000-20000">10,000 - 20,000 miles</option>
+            <option value="20000-30000">20,000 - 30,000 miles</option>
+            <option value="30000-40000">30,000 - 40,000 miles</option>
+            <option value="40000-50000">40,000 - 50,000 miles</option>
+            <option value="50000-60000">50,000 - 60,000 miles</option>
+            <option value="60000-70000">60,000 - 70,000 miles</option>
+            <option value="70000-80000">70,000 - 80,000 miles</option>
+            <option value="80000-90000">80,000 - 90,000 miles</option>
+            <option value="90000-100000">90,000 - 100,000 miles</option>
+            <option value="100000-110000">100,000 - 110,000 miles</option>
+            <option value="110000-120000">110,000 - 120,000 miles</option>
+            <option value="120000-130000">120,000 - 130,000 miles</option>
+            <option value="130000-140000">130,000 - 140,000 miles</option>
+            <option value="140000-150000">140,000 - 150,000 miles</option>
+            <option value="150000-160000">150,000 - 160,000 miles</option>
+            <option value="160000-170000">160,000 - 170,000 miles</option>
+            <option value="170000-180000">170,000 - 180,000 miles</option>
+            <option value="180000-190000">180,000 - 190,000 miles</option>
+            <option value="190000-200000">190,000 - 200,000 miles</option>
+            <option value="200000-210000">200,000 - 210,000 miles</option>
+            <option value="210000-220000">210,000 - 220,000 miles</option>
+            <option value="greater-than-220000">Greater than 220,000 miles</option>
+        </select>
+        <br>
+        <label for="cylinders">Number of  Cylinders:</label>
+<select name="cylinders" id="cylinders">
+    <option value="" >Select</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="8">8</option>
+    <option value="10">10</option>
+    <option value="12">12</option>
+</select>
+<br>
+
+        <label for="year">Manufacturing Year:</label>
+        <select name="year" id="year">
+            <option value="" >Select</option>
+            <option value="2001-or-older">2001 or Older</option>
+            {% for year in range(2002, 2023) %}
+                <option value="{{ year }}">{{ year }}</option>
+            {% endfor %}
+        </select>
+        <br>
+
+        <label for="manufacturer">Manufacturer:</label>
+        <select name="manufacturer" id="manufacturer">
+    <option value="" >Select</option>
+    <option value="acura">Acura</option>
+    <option value="audi">Audi</option>
+    <option value="bmw">BMW</option>
+    <option value="buick">Buick</option>
+    <option value="cadillac">Cadillac</option>
+    <option value="chevrolet">Chevrolet</option>
+    <option value="chrysler">Chrysler</option>
+    <option value="dodge">Dodge</option>
+    <option value="fiat">Fiat</option>
+    <option value="ford">Ford</option>
+    <option value="gmc">GMC</option>
+    <option value="harley-davidson">Harley-Davidson</option>
+    <option value="honda">Honda</option>
+    <option value="hyundai">Hyundai</option>
+    <option value="infiniti">Infiniti</option>
+    <option value="jaguar">Jaguar</option>
+    <option value="jeep">Jeep</option>
+    <option value="kia">Kia</option>
+    <option value="land rover">Land Rover</option>
+    <option value="lexus">Lexus</option>
+    <option value="lincoln">Lincoln</option>
+    <option value="mazda">Mazda</option>
+    <option value="mercedes-benz">Mercedes-Benz</option>
+    <option value="mercury">Mercury</option>
+    <option value="mini">MINI</option>
+    <option value="mitsubishi">Mitsubishi</option>
+    <option value="nissan">Nissan</option>
+    <option value="pontiac">Pontiac</option>
+    <option value="porsche">Porsche</option>
+    <option value="ram">Ram</option>
+    <option value="rover">Rover</option>
+    <option value="saturn">Saturn</option>
+    <option value="subaru">Subaru</option>
+    <option value="toyota">Toyota</option>
+    <option value="volkswagen">Volkswagen</option>
+    <option value="volvo">Volvo</option>
+    <!-- Add options for other manufacturers based on data_columns -->
+    <!-- Example: <option value="manufacturer_name">Manufacturer Name</option> -->
+    <!-- Add more options as needed -->
+</select>
+        <br>
+        <label for="condition">Condition:</label>
+        <select name="condition" id="condition">
+    <option value="" >Select</option>
+    <option value="condition_excellent">Excellent</option>
+    <option value="condition_fair">Fair</option>
+    <option value="condition_good">Good</option>
+    <option value="condition_like new">Like New</option>
+    <option value="condition_new">New</option>
+    <option value="condition_salvage">Salvage</option>
+    <!-- Add options for other conditions based on data_columns -->
+    <!-- Example: <option value="condition_poor">Poor</option> -->
+    <!-- Add more options as needed -->
+</select>
+        <br>
+        <label for="fuel">Fuel Type:</label>
+        <select name="fuel" id="fuel">
+    <option value="" >Select</option>
+    <option value="diesel">Diesel</option>
+    <option value="electric">Electric</option>
+    <option value="gas">Gas</option>
+    <option value="hybrid">Hybrid</option>
+    <option value="other">Other</option>
+    <!-- Add options for other fuels based on data_columns -->
+    <!-- Example: <option value="fuel_propane">Propane</option> -->
+    <!-- Add more options as needed -->
+</select>
+        <br>
+        <label for="title_status">Title Status:</label>
+        <select name="title_status" id="title_status">
+            <option value="" >Select</option>
+            <option value="clean">Clean</option>
+            <option value="lien">Lien</option>
+            <option value="mps">MPS</option>
+            <option value="rebuilt">Rebuilt</option>
+            <!-- Add options for other title statuses based on data_columns -->
+            <!-- Example: <option value="rebuilt">Rebuilt</option> -->
+            <!-- Add more options as needed -->
+        </select>
+        <br>
+        <label for="transmission">Transmission Type:</label>
+        <select name="transmission" id="transmission">
+
+            <option value="" >Select</option>
+            <option value="automatic">Automatic</option>
+            <option value="manual">Manual</option>
+
+            <!-- Add options for other transmissions based on data_columns -->
+            <!-- Example: <option value="semi-auto">Semi-Auto</option> -->
+            <!-- Add more options as needed -->
+        </select>
+        <br>
+        <label for="drive">Drive Type:</label>
+        <select name="drive" id="drive">
+            <option value="" >Select</option>
+            <option value="4wd">4WD</option>
+            <option value="fwd">FWD</option>
+            <option value="rwd">RWD</option>
+            <!-- Add options for other drives based on data_columns -->
+            <!-- Example: <option value="awd">AWD</option> -->
+            <!-- Add more options as needed -->
+        </select>
+        <br>
+        <label for="type">Vehicle Type:</label>
+        <select name="type" id="type">
+    <option value="" >Select</option>
+    <option value="type_suv">SUV</option>
+    <option value="type_bus">Bus</option>
+    <option value="type_convertible">Convertible</option>
+    <option value="type_coupe">Coupe</option>
+    <option value="type_hatchback">Hatchback</option>
+    <option value="type_mini-van">Mini-Van</option>
+    <option value="type_offroad">Offroad</option>
+    <option value="type_other">Other</option>
+    <option value="type_pickup">Pickup</option>
+    <option value="type_sedan">Sedan</option>
+    <option value="type_truck">Truck</option>
+    <option value="type_van">Van</option>
+    <option value="type_wagon">Wagon</option>
+    <!-- Add options for other types based on data_columns -->
+    <!-- Example: <option value="type_sports">Sports Car</option> -->
+    <!-- Add more options as needed -->
+</select>
+        <br>
+        <label for="paint_color">Paint Color:</label>
+       <select name="paint_color" id="paint_color">
+    <option value="" >Select</option>
+    <option value="black">Black</option>
+    <option value="blue">Blue</option>
+    <option value="brown">Brown</option>
+    <option value="custom">Custom</option>
+    <option value="green">Green</option>
+    <option value="grey">Grey</option>
+    <option value="orange">Orange</option>
+    <option value="purple">Purple</option>
+    <option value="red">Red</option>
+    <option value="silver">Silver</option>
+    <option value="white">White</option>
+    <option value="yellow">Yellow</option>
+    <!-- Add options for other paint colors based on data_columns -->
+    <!-- Example: <option value="paint_color_gold">Gold</option> -->
+    <!-- Add more options as needed -->
+</select>
+        <br>
+
+ <label for="size">Size:</label>
+<select name="size" id="size">
+    <option value="" >Select</option>
+    <option value="compact">Compact</option>
+    <option value="full-size">Full Size</option>
+    <option value="mid-size">Mid Size</option>
+    <!-- Add more options as needed -->
+</select>
+<br>
+
+    <label for="state">State:</label>
+        <select name="state" id="state">
+    <option value="" >Select</option>
+    <option value="ak">Alaska</option>
+    <option value="al">Alabama</option>
+    <option value="ar">Arkansas</option>
+    <option value="az">Arizona</option>
+    <option value="ca">California</option>
+    <option value="co">Colorado</option>
+    <option value="ct">Connecticut</option>
+    <option value="dc">District of Columbia</option>
+    <option value="de">Delaware</option>
+    <option value="fl">Florida</option>
+    <option value="ga">Georgia</option>
+    <option value="hi">Hawaii</option>
+    <option value="ia">Iowa</option>
+    <option value="id">Idaho</option>
+    <option value="il">Illinois</option>
+    <option value="in">Indiana</option>
+    <option value="ks">Kansas</option>
+    <option value="ky">Kentucky</option>
+    <option value="la">Louisiana</option>
+    <option value="ma">Massachusetts</option>
+    <option value="md">Maryland</option>
+    <option value="me">Maine</option>
+    <option value="mi">Michigan</option>
+    <option value="mn">Minnesota</option>
+    <option value="mo">Missouri</option>
+    <option value="ms">Mississippi</option>
+    <option value="mt">Montana</option>
+    <option value="nc">North Carolina</option>
+    <option value="nd">North Dakota</option>
+    <option value="ne">Nebraska</option>
+    <option value="nh">New Hampshire</option>
+    <option value="nj">New Jersey</option>
+    <option value="nm">New Mexico</option>
+    <option value="nv">Nevada</option>
+    <option value="ny">New York</option>
+    <option value="oh">Ohio</option>
+    <option value="ok">Oklahoma</option>
+    <option value="or">Oregon</option>
+    <option value="pa">Pennsylvania</option>
+    <option value="ri">Rhode Island</option>
+    <option value="sc">South Carolina</option>
+    <option value="sd">South Dakota</option>
+    <option value="tn">Tennessee</option>
+    <option value="tx">Texas</option>
+    <option value="ut">Utah</option>
+    <option value="va">Virginia</option>
+    <option value="vt">Vermont</option>
+    <option value="wa">Washington</option>
+    <option value="wi">Wisconsin</option>
+    <option value="wv">West Virginia</option>
+    <option value="wy">Wyoming</option>
+</select>
+        <br>
+
+
+
+        <input type="submit" value="Predict">
+    </form>
+    {% if prediction %}
+        <h2>Prediction:</h2>
+        <p>{{ prediction }}</p>
+    {% endif %}
+</body>
+</html>
