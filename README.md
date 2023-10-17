@@ -5,7 +5,7 @@ Welcome to my Data Science portfolio! This repository contains a collection of d
 ## Table of Contents
 
 - [Project 1: Used Car Price Prediction](#project-1-used-car-price-prediction)
-- [Project 2: Leading Predicting Factors in Stress Level](#project-2-data-visualization-with-matplotlib)
+- [Project 2: Leading Predicting Factors in Stress Level](#project-2-leading-predicting-factors-in-stress-level)
 - [Project 3: Women Singers Image Recognition Using SVM](#project-3-natural-language-processing-with-nltk)
 - [Project 4: Tomato Disease Classification using CNN() 
 
