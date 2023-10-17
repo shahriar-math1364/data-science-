@@ -27,3 +27,22 @@ List the necessary libraries and dependencies for running your project. You can 
 ```bash
 pip install -r requirements.txt
 
+## Usage
+
+## Data Preprocessing
+
+## Exploratory Data Analysis
+
+## Model Building
+
+## Evaluation
+
+## Results
+
+## Future Work
+
+## Contributing
+
+## License
+
+
