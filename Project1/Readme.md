@@ -24,9 +24,6 @@ Provide details about the dataset you used, including the source, size, and a br
 ## Installation
 List the necessary libraries and dependencies for running your project. You can include code snippets for installation.
 
-```bash
-pip install -r requirements.txt
-
 ## Usage
 
 
@@ -37,8 +34,8 @@ pip install -r requirements.txt
 
 
 ## Model Building
-
 hhhhh
+
 ## Evaluation
 
 
