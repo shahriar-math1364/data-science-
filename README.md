@@ -37,11 +37,11 @@ Description:
 
 ## About Me
 
-I'm a mathematician with a Ph.D. in Mathematics and a background as a Visiting Assistant Professor in the Department of Mathematics at [University Name]. While my academic journey has been deeply rooted in the world of mathematics, I've recently found my passion and calling in the field of data science, machine learning, and deep learning.
+I'm a mathematician with a Ph.D. in Mathematics and a background as a Visiting Assistant Professor in the Department of Mathematics at University of Cincinnati. While my academic journey has been deeply rooted in the world of mathematics, I've recently found my passion and calling in the field of data science, machine learning, and deep learning.
 
 ### Academic Background
 
-- **Ph.D. in Mathematics:** I proudly hold a Ph.D. in Mathematics from [University Name], with my research focusing on [briefly describe your research area and any significant findings or contributions].
+- **Ph.D. in Mathematics:** I proudly hold a Ph.D. in Mathematics from Brandeis University, with my research focusing on Dynamical Systems and Hausdorff dimension of exceptional sets in Homogeneous spaces.
 
 ### Transition to Data Science, Machine Learning, and Deep Learning
 
