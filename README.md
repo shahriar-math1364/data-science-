@@ -1,72 +1,58 @@
-# Data Science Portfolio
+# Data Scientist
 
-Welcome to my Data Science portfolio! This repository contains a collection of machine learning projects and related work that I've completed. Each project is briefly described below with a link to the full project details. If you have any questions or would like to collaborate, feel free to [contact me](mirzadsr@ucmail.uc.edu).
+#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
 
-## Table of Contents
+## Education
+- Ph.D., Physics | The University of Texas at Dallas (_May 2022_)								       		
+- M.S., Physics	| The University of Texas at Dallas (_December 2019_)	 			        		
+- B.S., Physics | The University of Texas at Dallas (_May 2017_)
 
-- [Project 1: Used Car Price Prediction](#project-1-used-car-price-prediction)
-- [Project 2: Leading Predicting Factors in Stress Level](#project-2-leading-predicting-factors-in-stress-level)
-- [Project 3: Women Singers Image Recognition Using SVM](#project-3-women-singers-image-recognition)
-- [Project 4: Tomato Disease Classification using CNN](#project-4-tomato-disease-classification-using-cnn) 
+## Work Experience
+**Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
+- Uncovered and corrected missing step in production data pipeline which impacted over 70% of active accounts
+- Redeveloped loan originations model which resulted in 50% improvement in model performance and saving 1 million dollars in potential losses
 
-## Project 1: Used Car Price Prediction
+**Data Science Consultant @ Shawhin Talebi Ventures LLC (_December 2020 - Present_)**
+- Conducted data collection, processing, and analysis for novel study evaluating the impact of over 300 biometrics variables on human performance in hyper-realistic, live-fire training scenarios
+- Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes
 
-Description: This project involves building predictive models using the Scikit-Learn library. I've worked on a classification problem to predict customer churn for a telecom company. The project covers data preprocessing, feature engineering, model selection, and evaluation.
+## Projects
+### Data-Driven EEG Band Discovery with Decision Trees
+[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
 
-[Link to Project 1](Project1/)
+Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
 
-## Project 2: Leading Predicting Factors in Stress Level  
-Description: In this project, I explored data visualization techniques using Matplotlib. I created various types of plots and charts to visualize trends and patterns in a dataset. This project includes Python code and sample visualizations.
+![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
 
-[Link to Project 2](Project2/)
+### Decoding Physical and Cognitive Impacts of Particulate Matter Concentrations at Ultra-Fine Scales
+[Publication](https://www.mdpi.com/1424-8220/22/11/4240)
 
-## Project 3: Women Singers Image Recognition
+Used **Matlab** to train over 100 machine learning models which estimated particulate matter concentrations based on a suite of over 300 biometric variables. We found biometric variables can be used to accurately estimate particulate matter concentrations at ultra-fine spatial scales with high fidelity (r2 = 0.91) and that smaller particles are better estimated than larger ones. Inferring environmental conditions solely from biometric measurements allows us to disentangle key interactions between the environment and the body.
 
-Description: This project focuses on natural language processing (NLP) using the NLTK library in Python. I've built a sentiment analysis model to classify movie reviews as positive or negative. The project includes text preprocessing, feature extraction, and model training.
+![Bike Study](/assets/img/bike_study.jpeg)
 
-[Link to Project 3](Project3/)
+## Talks & Lectures
+- Causality: The new science of an old question - GSP Seminar, Fall 2021
+- Guest Lecture: Dimensionality Reduction - Big Data and Machine Learning for Scientific Discovery (PHYS 5336), Spring 2021
+- Guest Lecture: Fourier and Wavelet Transforms - Scientific Computing (PHYS 5315), Fall 2020
+- A Brief Introduction to Optimization - GSP Seminar, Fall 2019
+- Weeks of Welcome Poster Competition - UTD, Fall 2019
+- A Brief Introduction to Networks - GSP Seminar, Spring 2019
 
+- [Data Science YouTube](https://www.youtube.com/channel/UCa9gErQ9AE5jT2DZLjXBIdA)
 
-## Project 4: Tomato Disease Classification Using CNN  
+## Publications
+1. Talebi S., Lary D.J., Wijeratne L. OH., and Lary, T. Modeling Autonomic Pupillary Responses from External Stimuli Using Machine Learning (2019). DOI: 10.26717/BJSTR.2019.20.003446
+2. Wijeratne, L.O.; Kiv, D.R.; Aker, A.R.; Talebi, S.; Lary, D.J. Using Machine Learning for the Calibration of Airborne Particulate Sensors. Sensors 2020, 20, 99.
+3. Lary, D.J.; Schaefer, D.; Waczak, J.; Aker, A.; Barbosa, A.; Wijeratne, L.O.H.; Talebi, S.; Fernando, B.; Sadler, J.; Lary, T.; Lary, M.D. Autonomous Learning of New Environments with a Robotic Team Employing Hyper-Spectral Remote Sensing, Comprehensive In-Situ Sensing and Machine Learning. Sensors 2021, 21, 2240. https://doi.org/10.3390/s21062240
+4. Zhang, Y.; Wijeratne, L.O.H.; Talebi, S.; Lary, D.J. Machine Learning for Light Sensor Calibration. Sensors 2021, 21, 6259. https://doi.org/10.3390/s21186259
+5. Talebi, S.; Waczak, J.; Fernando, B.; Sridhar, A.; Lary, D.J. Data-Driven EEG Band Discovery with Decision Trees. Preprints 2022, 2022030145 (doi: 10.20944/preprints202203.0145.v1).
+6. Fernando, B.A.; Sridhar, A.; Talebi, S.; Waczak, J.; Lary, D.J. Unsupervised Blink Detection Using Eye Aspect Ratio Values. Preprints 2022, 2022030200 (doi: 10.20944/preprints202203.0200.v1).
+7. Talebi, S. et al. Decoding Physical and Cognitive Impacts of PM Concentrations at Ultra-fine Scales, 29 March 2022, PREPRINT (Version 1) available at Research Square [https://doi.org/10.21203/rs.3.rs-1499191/v1]
+8. Lary, D.J. et al. (2022). Machine Learning, Big Data, and Spatial Tools: A Combination to Reveal Complex Facts That Impact Environmental Health. In: Faruque, F.S. (eds) Geospatial Technology for Human Well-Being and Health. Springer, Cham. https://doi.org/10.1007/978-3-030-71377-5_12
+9. Wijerante, L.O.H. et al. (2022). Advancement in Airborne Particulate Estimation Using Machine Learning. In: Faruque, F.S. (eds) Geospatial Technology for Human Well-Being and Health. Springer, Cham. https://doi.org/10.1007/978-3-030-71377-5_13
 
-Description: 
-
-[Link to Project 4](Project4/)
-
-
-
-## About Me
-
-I'm a mathematician with a Ph.D. in Mathematics and a background as a Visiting Assistant Professor in the Department of Mathematics at [University Name]. While my academic journey has been deeply rooted in the world of mathematics, I've recently found my passion and calling in the field of data science, machine learning, and deep learning.
-
-### Academic Background
-
-- **Ph.D. in Mathematics:** I proudly hold a Ph.D. in Mathematics from [University Name], with my research focusing on [briefly describe your research area and any significant findings or contributions].
-
-### Transition to Data Science, Machine Learning, and Deep Learning
-
-My professional journey is taking an exciting turn as I transition from the academic realm into the practical and dynamic world of data science, machine learning, and deep learning. I'm particularly drawn to the capabilities of deep learning algorithms to tackle complex problems and extract meaningful insights from data.
-
-### Project Interests
-
-I'm particularly interested in the following areas:
-- Machine learning model development
-- Deep learning applications for image and natural language processing
-- Data analysis, visualization, and storytelling
-- Predictive modeling for real-world problem-solving
-
-My goal is to engage in hands-on projects that leverage machine learning and deep learning techniques to create innovative solutions and drive real-world impact.
-
-### Collaboration and Projects
-
-I'm open to collaboration with fellow enthusiasts and organizations in the data science, machine learning, and deep learning community. Let's work together to explore the possibilities that deep learning offers and bring data-driven ideas to life.
-
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/yourusername) to explore potential collaboration opportunities or share our mutual enthusiasm for data science and deep learning.
-
-Thank you for visiting my GitHub page, and I look forward to embarking on this exciting journey with you in the world of data science, machine learning, and deep learning projects.
-
-
-## Connect with Me
+- [Data Science Blog](https://medium.com/@shawhin)
 
 - [LinkedIn](https://www.linkedin.com/in/shahriar-mirzadeh-4a90b861/)
 
