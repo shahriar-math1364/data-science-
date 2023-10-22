@@ -19,10 +19,14 @@ This classification project aims to identify the leading predictors of stress in
 - [License](#license)
 
 ## Data
-The dataset used in this project contains information about stress levels in individuals and various potential predictors. The dataset includes features such as age, gender, workload, sleep duration, and stress levels. It consists of [number] rows and [number] columns. A detailed description of the features is available in the data dictionary within the project repository.
+- The dataset used for this project is available [here](https://colab.research.google.com/drive/1wG7cYUX3TBkP-RDljvOlcAX18QhYWrOc).
+- It includes information about individuals, their occupations, physical activity levels, sleep patterns, and more.
+- The data is used for training and evaluating the stress prediction model.
 
 ## Installation
-To run this project, you'll need to install the required Python libraries and dependencies. You can do this using pip:
+- The project relies on popular Python libraries, including Pandas, Scikit-Learn, and XGBoost.
+- To install the required dependencies, use `pip install -r requirements.txt`.
 
-```bash
-pip install -r requirements.txt
+## Usage
+- To replicate this project, you can follow the Jupyter Notebook, 'Classification project.ipynb,' available in this repository.
+- The notebook provides a step-by-step guide on data preprocessing, feature selection, model training, and evaluation.
