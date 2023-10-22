@@ -69,6 +69,10 @@ To optimize the Decision Tree Regressor model, GridSearchCV is employed. This te
 Hyperparameters such as 'criterion' (either 'mse' or 'friedman_mse') and 'splitter' ('best' or 'random') are included in the search space.
 The model is evaluated using a 5-fold ShuffleSplit cross-validation strategy to ensure robust results.
 
+Here are the results that we obtain:
+
+![results]
+
 ## Evaluation
 
 
