@@ -22,6 +22,7 @@ The dataset consists of various features of used cars, such as make, model, year
 ## Data
  Here's an outline of the main project components:
 
+![data](https://github.com/shahriar-math1364/data-science-/blob/main/Project1/screenshot.png)
 
 ## Installation
 List the necessary libraries and dependencies for running your project. You can include code snippets for installation.
