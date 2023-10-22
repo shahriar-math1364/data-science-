@@ -30,3 +30,38 @@ This classification project aims to identify the leading predictors of stress in
 ## Usage
 - To replicate this project, you can follow the Jupyter Notebook, 'Classification project.ipynb,' available in this repository.
 - The notebook provides a step-by-step guide on data preprocessing, feature selection, model training, and evaluation.
+
+
+## Data Preprocessing
+- This section outlines the data preprocessing steps, including:
+  - Creating dummy variables for categorical features.
+  - Standardizing numeric features using MinMaxScaler.
+  - Splitting the 'Blood Pressure' column into systolic and diastolic components.
+  - Removing unnecessary columns to create a new DataFrame with normalized and numeric features.
+
+## Exploratory Data Analysis
+- The EDA section explores the dataset, including data distribution and key insights. It also discusses the relationship between feature selection and model accuracy.
+
+## Model Building
+- This section covers the training of three machine learning models:
+  - Support Vector Machine (SVM)
+  - Logistic Regression
+  - XGBoost with GridSearchCV for hyperparameter tuning.
+
+## Evaluation
+- The evaluation section presents the performance metrics for each model, including accuracy, a classification report, and a confusion matrix. It highlights the accuracy achieved by each model.
+
+## Results
+- The results section discusses the model with the highest accuracy, the XGBoost model after hyperparameter optimization. The project showcases this model as the best-performing one, with an accuracy of approximately 97%.
+
+## Future Work
+- In the future, this project could be expanded by:
+  - Collecting more data to improve model accuracy.
+  - Implementing real-time stress level prediction for individuals.
+  - Exploring additional machine learning algorithms for comparison.
+
+## Contributing
+- Contributions to this project are welcome. If you have ideas for improvements or new features, please feel free to open issues or submit pull requests.
+
+## License
+- This project is under the [MIT License](LICENSE).
