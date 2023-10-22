@@ -3,7 +3,7 @@
 ![Shakira](https://github.com/shahriar-math1364/data-science-/blob/main/Project1/usedcar.jpg)
 
 ## Project Overview
-A brief introduction to your project. Describe what the project is about and its main objectives.
+The dataset consists of various features of used cars, such as make, model, year, mileage, and more. These attributes serve as inputs for the model to predict the price of the vehicles.
 
 ## Table of Contents
 - [Data](#data)
@@ -19,7 +19,7 @@ A brief introduction to your project. Describe what the project is about and its
 - [License](#license)
 
 ## Data
-The dataset consists of various features of used cars, such as make, model, year, mileage, and more. These attributes serve as inputs for the model to predict the price of the vehicles. Here's an outline of the main project components:
+ Here's an outline of the main project components:
 
 
 ## Installation
