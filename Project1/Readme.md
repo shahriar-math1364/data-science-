@@ -26,8 +26,24 @@ List the necessary libraries and dependencies for running your project. You can 
 
 ## Usage
 
+To utilize the project, follow these steps:
+
+Clone the project repository from GitHub.
+Install the required dependencies using pip install -r requirements.txt.
+Run the Jupyter Notebook or Python script to build and train the regression model.
+Input relevant data and obtain price predictions.
+Make use of the model for accurate used car price estimation.
 
 ## Data Preprocessing
+
+Data preprocessing is a crucial initial step in this project, including:
+
+Dropping unnecessary features, such as 'id,' 'url,' 'image_url,' and more.
+Handling missing values, including removing columns with all missing values.
+Removing outliers based on price, year, and odometer.
+Feature engineering to create a new column named 'size-c' and standardize features like 'year' and 'cylinders.'
+One-hot encoding for categorical variables to convert them into numerical values.
+
 
 
 ## Exploratory Data Analysis
