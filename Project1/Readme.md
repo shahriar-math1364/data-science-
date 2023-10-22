@@ -51,8 +51,8 @@ One-hot encoding for categorical variables to convert them into numerical values
 ## Exploratory Data Analysis
 Exploratory data analysis uncovers insights by analyzing year-wise and odometer-wise price trends. Visualizations are used to discover data patterns and relationships between features and car prices.
 
-(https://github.com/shahriar-math1364/data-science-/blob/main/Project1/year-wise trend.png)
-(https://github.com/shahriar-math1364/data-science-/blob/main/Project1/odometer-price.png)
+![year-wise trend](https://github.com/shahriar-math1364/data-science-/blob/main/Project1/year-wise trend.png)
+![odometer reading vs price](https://github.com/shahriar-math1364/data-science-/blob/main/Project1/odometer-price.png)
 
 ## Model Building
 The model building phase is focused on creating a regression model for used car price prediction. Key components of this phase include:
