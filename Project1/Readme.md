@@ -38,14 +38,18 @@ Make use of the model for accurate used car price estimation.
 
 ## Data Preprocessing
 
-Data preprocessing is a crucial initial step in this project, including:
-
-Dropping unnecessary features, such as 'id,' 'url,' 'image_url,' and more.
-Handling missing values, including removing columns with all missing values.
-Removing outliers based on price, year, and odometer.
-Feature engineering to create a new column named 'size-c' and standardize features like 'year' and 'cylinders.'
-One-hot encoding for categorical variables to convert them into numerical values.
-
+ - Unnecessary features, including 'id,' 'url,' 'image_url,' 'posting_date,' 'description,' 'VIN,' 'region_url,' 'county,' and 'model,' are removed.
+    - Rows with missing values are dropped, resulting in a cleaner dataset.
+    - Irrelevant columns, such as 'lat' and 'long,' are removed.
+    - A new feature 'size-c' is created, combining 'compact' and 'subcompact' sizes.
+    - Rows with prices less than 500 and years earlier than 2001 are filtered out.
+    - The 'odometer' column is converted into intervals (e.g., 12 for an odometer reading between 120,000 and 130,000 miles).
+    - A new column 'cyl1' is created by extracting the number of cylinders from the 'cylinders' column.
+    - 'cyl1' values are standardized between 0 and 1.
+    - Rows with 'title_status' values 'missing,' 'parts only,' or 'salvage' are replaced with 'mps.'
+    - Categorical variables are one-hot encoded for use in machine learning models.
+    - The 'year' column is scaled to values between 0 and 1 using MinMaxScaler.
+    - Outliers in the dataset are identified based on 'odometer,' 'year,' 'condition,' and 'type,' and removed.
 
 
 ## Exploratory Data Analysis
