@@ -54,6 +54,8 @@ This classification project aims to identify the leading predictors of stress in
 ## Results
 - The results section discusses the model with the highest accuracy, the XGBoost model after hyperparameter optimization. The project showcases this model as the best-performing one, with an accuracy of approximately 97%.
 
+![xgboost](https://github.com/shahriar-math1364/data-science-/blob/main/Project2/images/report-xgboost.png)
+
 ## Future Work
 - In the future, this project could be expanded by:
   - Collecting more data to improve model accuracy.
