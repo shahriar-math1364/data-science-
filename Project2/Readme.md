@@ -65,10 +65,23 @@ Furthermore, we generate a bar plot to display the feature importance scores for
 - The EDA section explores the dataset, including data distribution and key insights. It also discusses the relationship between feature selection and model accuracy.
 
 ## Model Building
-- This section covers the training of three machine learning models:
-  - Support Vector Machine (SVM)
-  - Logistic Regression
-  - XGBoost with GridSearchCV for hyperparameter tuning.
+
+The code trains and evaluates three different machine learning models:
+
+### Support Vector Machine (SVM) Model
+
+An SVM model is trained and evaluated, achieving an accuracy of approximately 90%. The code provides a classification report and a confusion matrix to assess model performance.
+![SVM](https://github.com/shahriar-math1364/data-science-/blob/main/Project2/images/report-svm.png)
+
+### Logistic Regression Model
+
+A logistic regression model is trained and evaluated, attaining an accuracy of around 88%. Similar to the SVM model, a classification report and a confusion matrix are presented for evaluation.
+![Reg](https://github.com/shahriar-math1364/data-science-/blob/main/Project2/images/report-reg.png)
+
+### XGBoost Model with Hyperparameter Tuning
+
+An XGBoost model is trained and optimized using GridSearchCV. The best model is selected based on hyperparameter tuning, achieving an impressive accuracy of about 97%. A detailed classification report and a heatmap of the confusion matrix are provided for model evaluation.
+
 
 ## Evaluation
 - The evaluation section presents the performance metrics for each model, including accuracy, a classification report, and a confusion matrix. It highlights the accuracy achieved by each model.
@@ -77,6 +90,11 @@ Furthermore, we generate a bar plot to display the feature importance scores for
 - The results section discusses the model with the highest accuracy, the XGBoost model after hyperparameter optimization. The project showcases this model as the best-performing one, with an accuracy of approximately 97%.
 
 ![xgboost](https://github.com/shahriar-math1364/data-science-/blob/main/Project2/images/report-xgboost.png)
+
+
+## Model Deployment
+
+For model deployment, the best-performing model (XGBoost) is saved to a pickle file. Additionally, the names of the columns used for model training are stored in a JSON file. This prepares the model for future deployment or integration into applications.
 
 ## Future Work
 - In the future, this project could be expanded by:
