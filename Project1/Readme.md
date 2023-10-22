@@ -62,9 +62,9 @@ This section provides code and detailed insights into the model-building process
 
 
 ## GridSearchCV for Hyperparameter Tuning:
-    - To optimize the Decision Tree Regressor model, GridSearchCV is employed. This technique systematically explores various hyperparameters to determine the best configuration.
-    - Hyperparameters such as 'criterion' (either 'mse' or 'friedman_mse') and 'splitter' ('best' or 'random') are included in the search space.
-    - The model is evaluated using a 5-fold ShuffleSplit cross-validation strategy to ensure robust results.
+To optimize the Decision Tree Regressor model, GridSearchCV is employed. This technique systematically explores various hyperparameters to determine the best configuration.
+Hyperparameters such as 'criterion' (either 'mse' or 'friedman_mse') and 'splitter' ('best' or 'random') are included in the search space.
+The model is evaluated using a 5-fold ShuffleSplit cross-validation strategy to ensure robust results.
 
 ## Evaluation
 
