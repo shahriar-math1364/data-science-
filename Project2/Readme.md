@@ -63,6 +63,8 @@ Furthermore, we generate a bar plot to display the feature importance scores for
 
 ## Exploratory Data Analysis
 - The EDA section explores the dataset, including data distribution and key insights. It also discusses the relationship between feature selection and model accuracy.
+![kbest](https://github.com/shahriar-math1364/data-science-/blob/main/Project2/images/k-best.png)
+![importance](https://github.com/shahriar-math1364/data-science-/blob/main/Project2/images/feature-importance.png)
 
 ## Model Building
 
