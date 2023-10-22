@@ -51,7 +51,7 @@ One-hot encoding for categorical variables to convert them into numerical values
 ## Exploratory Data Analysis
 Exploratory data analysis uncovers insights by analyzing year-wise and odometer-wise price trends. Visualizations are used to discover data patterns and relationships between features and car prices.
 
-![year-wise trend](https://github.com/shahriar-math1364/data-science-/blob/main/Project1/year-wise trend.png)
+![year-wise trend](https://github.com/shahriar-math1364/data-science-/blob/main/Project1/year-wise-trend.png)
 ![odometer reading vs price](https://github.com/shahriar-math1364/data-science-/blob/main/Project1/odometer-price.png)
 
 ## Model Building
