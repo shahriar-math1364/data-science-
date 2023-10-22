@@ -19,7 +19,8 @@ A brief introduction to your project. Describe what the project is about and its
 - [License](#license)
 
 ## Data
-Provide details about the dataset you used, including the source, size, and a brief description of its features.
+The dataset consists of various features of used cars, such as make, model, year, mileage, and more. These attributes serve as inputs for the model to predict the price of the vehicles. Here's an outline of the main project components:
+
 
 ## Installation
 List the necessary libraries and dependencies for running your project. You can include code snippets for installation.
@@ -50,7 +51,12 @@ One-hot encoding for categorical variables to convert them into numerical values
 
 
 ## Model Building
+The model building phase is focused on creating a regression model for used car price prediction. Key components of this phase include:
 
+Selecting suitable regression algorithms, such as Linear Regression, Lasso, and Decision Tree Regressor.
+Feature engineering to enhance model performance, including standardizing the 'year' and 'cylinders' features.
+Training the model using the preprocessed dataset.
+This section provides code and detailed insights into the model-building process, including the identification of the best-performing model.
 
 ## Evaluation
 
