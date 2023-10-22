@@ -71,7 +71,7 @@ The model is evaluated using a 5-fold ShuffleSplit cross-validation strategy to 
 
 Here are the results that we obtain:
 
-![results]
+![results](https://github.com/shahriar-math1364/data-science-/blob/main/Project1/result.png)
 
 ## Evaluation
 
