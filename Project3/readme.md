@@ -45,4 +45,6 @@ Various classification algorithms were used:
 - K-Nearest Neighbors (KNN)
 - Decision Trees
 
-**Hyperparameter Tuning:** Grid Search Cross Validation was utilized for each algorithm to identify the optimal set of hyperparameters.
+**Hyperparameter Tuning:** Grid Search Cross Validation was utilized for each algorithm to identify the optimal set of hyperparameters. Here is the result of the Grid Search:
+
+![Gridsearch](https://github.com/shahriar-math1364/data-science-/blob/main/Project3/images/result.png)
