@@ -38,12 +38,15 @@ To run this project and the SVM classifier, you'll need to install the required 
 
 ## Model Building
 
-Various classification algorithms were used:
-- Support Vector Machines (SVM)
-- Random Forest
-- Logistic Regression
-- K-Nearest Neighbors (KNN)
-- Decision Trees
+**Wavelet Transformation:** Before model training, a critical step in feature extraction involves applying Wavelet Transform to the preprocessed images. Wavelet Transformation decomposes an image into different frequency sub-bands, effectively capturing both spatial and frequency information. This allows the model to discern intricate patterns in the image which might be challenging to capture with raw pixel values alone.
+
+Various classification algorithms were then applied to the wavelet-transformed features:
+- **Support Vector Machines (SVM):** SVMs are especially suited for high dimensional data, making them an excellent choice for image data post-wavelet transformation.
+- **Random Forest**
+- **Logistic Regression**
+- **K-Nearest Neighbors (KNN)**
+- **Decision Trees**
+
 
 **Hyperparameter Tuning:** Grid Search Cross Validation was utilized for each algorithm to identify the optimal set of hyperparameters. Here is the result of the Grid Search:
 
