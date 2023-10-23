@@ -3,7 +3,13 @@
 ![Project Image/GIF]
 
 ## Project Overview
-This classification project focuses on identifying and categorizing women singers based on their vocal characteristics and attributes. The project aims to develop a classification model using Support Vector Machine (SVM) that can accurately classify singers into different genres, voice types, or other relevant categories.
+The project is focused on the detection and recognition of celebrity faces from images. Leveraging the power of computer vision libraries, specifically OpenCV, the project provides the ability to preprocess images by cropping only the face section when two eyes are detected. This ensures that only useful features are fed into the machine learning models. The project also explores a method called Wavelet Transformation to extract features from an image that can be further used for classification.
+
+The dataset comprises images of various female celebrities, like Rihanna, Katy Perry, etc., stored in folders named after the respective celebrity. The images are then preprocessed, and the cropped face sections are stored in separate folders.
+
+For the classification task, the project utilizes various machine learning algorithms such as Support Vector Machines (SVM), Random Forest, Logistic Regression, K-Nearest Neighbors, and Decision Trees. Grid Search Cross Validation is performed on these models to identify the best hyperparameters for the given data. The performance of each model is then compared based on accuracy.
+
+Finally, the best-performing model (in this case, an SVM model) is serialized using Python's pickle module for potential future use or deployment.
 
 ## Table of Contents
 - [Data](#data)
