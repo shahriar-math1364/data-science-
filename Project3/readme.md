@@ -48,3 +48,7 @@ Various classification algorithms were used:
 **Hyperparameter Tuning:** Grid Search Cross Validation was utilized for each algorithm to identify the optimal set of hyperparameters. Here is the result of the Grid Search:
 
 ![Gridsearch](https://github.com/shahriar-math1364/data-science-/blob/main/Project3/images/result.png)
+
+## Results
+
+The SVM emerged as the superior model, delivering the highest accuracy among all tested algorithms. 
