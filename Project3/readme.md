@@ -30,5 +30,8 @@ The dataset used in this project contains information about women singers, inclu
 ## Installation
 To run this project and the SVM classifier, you'll need to install the required Python libraries and dependencies. You can do this using pip:
 
-```bash
-pip install -r requirements.txt
+## Data Preprocessing
+
+- **Face Detection:** Leveraging Haarcascades from OpenCV, we identify the facial region in images. An image is valid only when two eyes are detected.
+- **Cropping:** Images are cropped to only contain the facial region, ensuring irrelevant features are excluded.
+- **Wavelet Transformation:** To extract critical features, images undergo Wavelet Transformation, converting them into a machine-friendly format
