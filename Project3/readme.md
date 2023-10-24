@@ -29,7 +29,17 @@ Finally, the best-performing model (in this case, an SVM model) is serialized us
 The dataset used in this project contains information about women singers, including their biographical details, vocal characteristics, and music genres. It includes features such as age, vocal range, style, and more. The dataset consists of [number] rows and [number] columns. A detailed description of the features can be found in the data dictionary within the project repository.
 
 ## Installation
-To run this project and the SVM classifier, you'll need to install the required Python libraries and dependencies. You can do this using pip:
+The project is based on Python and requires several libraries, including:
+- `opencv-python`
+- `numpy`
+- `matplotlib`
+- `pywt`
+- `scikit-learn`
+
+You can install these packages using `pip`:
+
+```bash
+pip install opencv-python numpy matplotlib pywt scikit-learn
 
 ## Data Preprocessing
 
