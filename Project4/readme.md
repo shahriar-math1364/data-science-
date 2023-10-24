@@ -26,3 +26,12 @@ To run this project and the CNN-based tomato disease classification model, you'l
 
 ```bash
 pip install -r requirements.txt
+```
+
+## Data Preprocessing
+
+1. **Loading & Visualization**: Data is directly loaded from the directory structure using TensorFlow's `image_dataset_from_directory`.
+2. **Splitting**: Data is methodically split into training (80%), validation (10%), and test sets (10%).
+3. **Augmentation**: To enhance model robustness, we applied horizontal and vertical flipping, and random rotation.
+4. **Normalization**: All images are resized to 256x256 pixels and pixel values are rescaled to range [0,1].
+
