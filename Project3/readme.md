@@ -20,6 +20,7 @@ Finally, the best-performing model (in this case, an SVM model) is serialized us
 - [Model Building](#model-building)
 - [Evaluation](#evaluation)
 - [Results](#results)
+- [Deployment](#deployment) 
 - [Future Work](#future-work)
 - [Contributing](#contributing)
 - [License](#license)
@@ -55,3 +56,9 @@ Various classification algorithms were then applied to the wavelet-transformed f
 ## Results
 
 The SVM emerged as the superior model, delivering the highest accuracy among all tested algorithms. 
+
+## Deployment
+
+The model has been successfully deployed to Google Cloud. This allows for real-time predictions and broadens the potential applications of our celebrity face recognition system. The deployment on Google Cloud ensures high availability and scalability, enabling users to access the model from anywhere and at any scale.
+
+For access details, API documentation, and usage instructions related to the Google Cloud deployment, please refer to the [Deployment Documentation](link-to-your-deployment-documentation).
