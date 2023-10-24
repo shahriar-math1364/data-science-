@@ -35,3 +35,17 @@ pip install -r requirements.txt
 3. **Augmentation**: To enhance model robustness, we applied horizontal and vertical flipping, and random rotation.
 4. **Normalization**: All images are resized to 256x256 pixels and pixel values are rescaled to range [0,1].
 
+## Model Building
+
+### **Model Architecture and Rationale** <a name="model-architecture"></a>
+Our CNN model comprises:
+- **Preprocessing Layers**: For resizing and rescaling.
+- **Convolutional Layers**: To extract visual features from images.
+- **Pooling Layers**: To reduce spatial dimensions while retaining important features.
+- **Dense Layers**: For classification.
+Rationale: CNNs are adept at image classification tasks due to their ability to learn hierarchical patterns in data.
+
+### **Training Procedure** <a name="training"></a>
+1. **Optimizer**: Adam, known for its adaptive learning rates.
+2. **Loss Function**: Sparse Categorical Crossentropy, suitable for multi-class classification.
+3. **Epochs**: The model is trained for 50 epochs, ensuring convergence while avoiding overfitting.
