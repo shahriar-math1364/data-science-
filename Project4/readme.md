@@ -37,15 +37,42 @@ pip install -r requirements.txt
 
 ## Model Building
 
-### **Model Architecture and Rationale** <a name="model-architecture"></a>
-Our CNN model comprises:
-- **Preprocessing Layers**: For resizing and rescaling.
-- **Convolutional Layers**: To extract visual features from images.
-- **Pooling Layers**: To reduce spatial dimensions while retaining important features.
-- **Dense Layers**: For classification.
-Rationale: CNNs are adept at image classification tasks due to their ability to learn hierarchical patterns in data.
+The model architecture designed for this task is a multi-layered Convolutional Neural Network (CNN). Here's a breakdown of its components and the reasoning behind each choice:
 
-### **Training Procedure** <a name="training"></a>
-1. **Optimizer**: Adam, known for its adaptive learning rates.
-2. **Loss Function**: Sparse Categorical Crossentropy, suitable for multi-class classification.
-3. **Epochs**: The model is trained for 50 epochs, ensuring convergence while avoiding overfitting.
+### **Input Preprocessing Layers:**
+- **Resizing and Rescaling Layer**: 
+  - **Purpose**: Ensure all images have consistent dimensions and normalized values.
+  - **Details**: Images are resized to a uniform 256x256 pixels and rescaled to have pixel values between [0,1]. This step ensures consistency in input data and aids in faster convergence during training.
+
+### **Convolutional Layers:**
+- **Purpose**: These layers learn spatial hierarchies of features.
+  - **Configuration**: 
+    - Total of five convolutional layers.
+    - Each has a kernel size of 3x3.
+    - Activation function: 'ReLU'.
+    - Using multiple convolutional layers allows the model to learn intricate features and patterns. The ReLU activation helps counter the vanishing gradient problem and introduces non-linearity.
+
+### **Pooling Layers:**
+- **Purpose**: Reduction of spatial dimensions of feature maps, enabling fewer parameters and computational savings without significant feature loss.
+  - **Configuration**: 
+    - Max-pooling is used post each convolutional layer.
+    - Pooling window size: 2x2.
+    - Max-pooling ensures dominant spatial features are retained.
+
+### **Flattening:**
+- **Purpose**: Transitioning from 2D feature maps to 1D vector for dense layers.
+  - The 2D feature map obtained post the final pooling step is converted to a 1D vector.
+
+### **Dense (Fully Connected) Layers:**
+- **Purpose**: Decision-making based on learned features from preceding layers.
+  - **Configuration**: 
+    - Initial dense layer: 64 units with 'ReLU' activation.
+    - Output layer: 10 units (corresponding to 10 tomato classes) with 'Softmax' activation.
+    - Softmax activation gives a probability distribution over classes, apt for multi-class classification.
+
+### **Model Compilation:**
+- **Optimizer**: Adam, known for its adaptive learning rate, potentially speeding up convergence.
+- **Loss Function**: Sparse Categorical Crossentropy - ideal for multi-class, mutually exclusive classification.
+
+### **Rationale:**
+CNNs have excelled in image classification due to their ability to discern hierarchical spatial features in images. Starting from basic edge detectors, they proceed to understand advanced patterns. Our architecture, infused with multiple layers, aims to extract a diverse set of features from the tomato images, enhancing classification accuracy.
