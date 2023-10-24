@@ -1,6 +1,6 @@
 # Women Singers Classification Project with Support Vector Machine
 
-![Project Image/GIF]
+![Project Image/GIF](https://github.com/shahriar-math1364/data-science-/blob/main/Project3/images/4.jpg)
 
 ## Project Overview
 The project is focused on the detection and recognition of celebrity faces from images. Leveraging the power of computer vision libraries, specifically OpenCV, the project provides the ability to preprocess images by cropping only the face section when two eyes are detected. This ensures that only useful features are fed into the machine learning models. The project also explores a method called Wavelet Transformation to extract features from an image that can be further used for classification.
