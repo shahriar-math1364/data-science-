@@ -41,6 +41,8 @@ You can install these packages using `pip`:
 ```bash
 pip install opencv-python numpy matplotlib pywt scikit-learn
 
+exit 
+
 
 ## Data Preprocessing
 
