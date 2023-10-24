@@ -41,6 +41,7 @@ You can install these packages using `pip`:
 ```bash
 pip install opencv-python numpy matplotlib pywt scikit-learn
 
+
 ## Data Preprocessing
 
 - **Face Detection:** Leveraging Haarcascades from OpenCV, we identify the facial region in images. An image is valid only when two eyes are detected:
