@@ -3,7 +3,8 @@
 ![tomato disease](https://github.com/shahriar-math1364/data-science-/blob/main/Project4/tomato%20disease.jpg)
 
 ## Project Overview
-This project focuses on the automated classification of tomato plants affected by various diseases using Convolutional Neural Networks (CNN). The aim is to create a robust model capable of accurately identifying and categorizing diseases in tomato plants, which can be invaluable for early disease detection in agriculture.
+Tomatoes are one of the most cultivated crops around the world. Identifying diseases in tomatoes at an early stage can help in ensuring their healthy growth and increasing yield. This project aims to classify different types of tomato diseases using Convolutional Neural Networks (CNN) by analyzing images of the leaves.
+
 
 ## Table of Contents
 - [Data](#data)
