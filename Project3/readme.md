@@ -33,7 +33,8 @@ To run this project and the SVM classifier, you'll need to install the required 
 
 ## Data Preprocessing
 
-- **Face Detection:** Leveraging Haarcascades from OpenCV, we identify the facial region in images. An image is valid only when two eyes are detected.
+- **Face Detection:** Leveraging Haarcascades from OpenCV, we identify the facial region in images. An image is valid only when two eyes are detected:
+
 ![eyes](https://github.com/shahriar-math1364/data-science-/blob/main/Project3/images/eyes.png)
 
 - **Cropping:** Images are cropped to only contain the facial region, ensuring irrelevant features are excluded.
