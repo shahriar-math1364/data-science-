@@ -39,7 +39,9 @@ The project is based on Python and requires several libraries, including:
 You can install these packages using `pip`:
 
 
+```bash
 pip install opencv-python numpy matplotlib pywt scikit-learn
+```
 
 
 ## Data Preprocessing
