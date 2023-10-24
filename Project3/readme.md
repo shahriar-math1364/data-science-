@@ -34,6 +34,8 @@ To run this project and the SVM classifier, you'll need to install the required 
 ## Data Preprocessing
 
 - **Face Detection:** Leveraging Haarcascades from OpenCV, we identify the facial region in images. An image is valid only when two eyes are detected.
+![eyes](https://github.com/shahriar-math1364/data-science-/blob/main/Project3/images/eyes.png)
+
 - **Cropping:** Images are cropped to only contain the facial region, ensuring irrelevant features are excluded.
 - **Wavelet Transformation:** To extract critical features, images undergo Wavelet Transformation, converting them into a machine-friendly format
 
@@ -62,3 +64,7 @@ The SVM emerged as the superior model, delivering the highest accuracy among all
 The model has been successfully deployed to Google Cloud. This allows for real-time predictions and broadens the potential applications of our celebrity face recognition system. The deployment on Google Cloud ensures high availability and scalability, enabling users to access the model from anywhere and at any scale.
 
 For access details, API documentation, and usage instructions related to the Google Cloud deployment, please refer to the [Deployment Documentation](link-to-your-deployment-documentation).
+
+## Contributing
+
+Contributions are welcomed! Please fork the project and create a pull request with your changes.
