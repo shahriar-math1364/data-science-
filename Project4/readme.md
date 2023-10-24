@@ -71,6 +71,10 @@ The model architecture designed for this task is a multi-layered Convolutional N
     - Output layer: 10 units (corresponding to 10 tomato classes) with 'Softmax' activation.
     - Softmax activation gives a probability distribution over classes, apt for multi-class classification.
 
+![CNN](https://github.com/shahriar-math1364/data-science-/blob/main/Project4/images/CNN.png)
+
+
+
 ### **Model Compilation:**
 - **Optimizer**: Adam, known for its adaptive learning rate, potentially speeding up convergence.
 - **Loss Function**: Sparse Categorical Crossentropy - ideal for multi-class, mutually exclusive classification.
