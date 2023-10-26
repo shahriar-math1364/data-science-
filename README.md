@@ -4,8 +4,7 @@
 
 ## Education
 - Ph.D., Mathematics | Brandeis University (_May 2018_)								       		
-- M.S., Mathematics	| Sharif University of Technology, Tehran, Iran (_December 2012_)	 			        		
-- B.S., Mathematics | K.N.Toosi University of Technology (_September 2009_)
+
 
 ## Work Experience
 **Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
