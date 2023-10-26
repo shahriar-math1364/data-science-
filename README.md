@@ -54,8 +54,8 @@ This repository contains a data-driven project that analyzes and predicts stress
 #### Key Highlights
 
 - Data preprocessing and feature engineering performed on `Sleep.csv`, a dataset with numerous variables including occupation, gender, heart rate, etc.
-- Employed various classification models: Support Vector Machine, Logistic Regression, and XGBoost.
-- Applied `GridSearchCV` for hyperparameter tuning on the XGBoost model, achieving an accuracy of approximately 97%.
+- Employed various classification models: **Support Vector Machine**, **Logistic Regression**, and **XGBoost**.
+- Applied **GridSearchCV** for hyperparameter tuning on the XGBoost model, achieving an accuracy of approximately 97%.
 - Model artifacts, including the best-performing model and relevant features, are saved for future deployment.
 
 #### Links
