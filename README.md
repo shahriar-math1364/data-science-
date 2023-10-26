@@ -34,19 +34,6 @@ This repository hosts a machine learning model focused on predicting used car pr
 🔗 **Detailed Project Page**: [Click here](your_project_page_link)  
 🚀 **Live Deployment**: [Try it out](your_deployment_link)
 
-## Getting Started
-
-(Here, you can include instructions on how to get a copy of the project up and running on someone's local machine for development and testing purposes.)
-
-## License
-
-(Mention the license you're using for this project. For example: "This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.")
-
-## Acknowledgments
-
-(List any acknowledgments, sources, references, or contributors you'd like to mention.)
-Remember to replace your_project_page_link and your_deployment_link with your actual links. Adjust any sections according to your project's specifics.
-
 
 
 
