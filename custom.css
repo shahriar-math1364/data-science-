@@ -1,5 +1,5 @@
-img[alt="Profile Image"] {
+.site-header .site-logo img {
     border-radius: 50%;
-    width: 100px;  /* Adjust this value according to your needs */
-    height: 100px; /* Adjust this value according to your needs */
+    width: 100px;  /* Adjust based on your preference */
+    height: 100px; /* Adjust based on your preference */
 }
