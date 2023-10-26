@@ -1,6 +1,6 @@
 # Data Scientist
 
-![Shahriar Mirzadeh]({{ site.logo }})
+![Shahriar Mirzadeh](head_shot.jpg)
 
 ## Skills
 
