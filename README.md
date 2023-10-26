@@ -1,6 +1,12 @@
 # Data Scientist
 
-#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
+## Skills
+
+- **Programming**: Python (pandas, scikit-learn, TensorFlow, Keras), R, SQL
+- **Data Analysis**: Regression, Classification, Clustering, Anomaly Detection
+- **Tools**: Jupyter Notebook, Tableau, SQL Server, Git
+- **Mathematics**: Probability, Statistics, Linear Algebra
+- **Deep Learning**: CNN, RNN, Transformers
 
 ## Education
 - Ph.D., Mathematics | Brandeis University (_May 2018_)								       		
