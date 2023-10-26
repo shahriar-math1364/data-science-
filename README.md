@@ -20,20 +20,19 @@
 
 
 
-Predict the resale value of used cars using data from multiple online platforms and advanced machine learning techniques.
+This repository contains a data-driven project that analyzes and predicts stress levels based on various factors like sleep patterns, occupation, physical activity, and more.
 
-![Banner Image or Project Logo]()
+## Key Highlights
 
-- **Project Page**: For in-depth details, architecture, and more, [visit our dedicated project page](https://github.com/shahriar-math1364/data-science-/tree/main/Project1).
-- **Objective**: Our aim with this project was to harness the power of machine learning to accurately estimate the resale value of used cars.
-  
-- **Data**: The dataset contains a comprehensive list of features that influence a car's resale value. This includes attributes such as `make`, `model`, `year`, `mileage`, `color`, among others.
-  
-- **Modeling**: We settled on the `RandomForestRegressor` from scikit-learn for its accuracy and robustness. Our model went through rigorous preprocessing, feature engineering, and fine-tuning stages to ensure optimal performance.
-  
-- **Performance**: We're proud to announce that our model achieved a Mean Absolute Error (MAE) of [YOUR_VALUE_HERE]. This metric emphasizes our model's capability in delivering reliable and accurate used car price estimates.
-  
-- **Deployment**: To make our solution accessible to users, we've rolled out a user-friendly web application. Here, users can obtain real-time price predictions by inputting relevant car details.  Experience our prediction system in action! [Check out the live demo here](YOUR_LIVE_DEMO_LINK).
+- Data preprocessing and feature engineering performed on `Sleep.csv`, a dataset with numerous variables including occupation, gender, heart rate, etc.
+- Employed various classification models: Support Vector Machine, Logistic Regression, and XGBoost.
+- Applied `GridSearchCV` for hyperparameter tuning on the XGBoost model, achieving an accuracy of approximately 97%.
+- Model artifacts, including the best-performing model and relevant features, are saved for future deployment.
+
+## Links
+🔗 **Detailed Project Page**: [Click here](your_project_page_link)  
+🚀 **Live Deployment**: [Try it out](your_deployment_link)
+
 
 
 ### Sleep-Stress Classification Project
