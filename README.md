@@ -56,7 +56,33 @@ This repository contains a data-driven project that analyzes and predicts stress
 🔗 **Detailed Project Page**: [Click here](your_project_page_link)  
 🚀 **Live Deployment**: [Try it out](your_deployment_link)
 
-![Bike Study](/assets/img/bike_study.jpeg)
+
+
+### Women Celebrity Image Classifier
+
+A machine learning-based image processing tool that identifies and classifies celebrities.
+
+#### Overview
+
+This project is centered around:
+- Processing images to detect facial attributes using **OpenCV**.
+- Employing **Wavelet Transform** to extract features from images.
+- Training a variety of machine learning models, including **SVM, Random Forest**, and others.
+- Fine-tuning models through **GridSearchCV** to reach optimum classification accuracy.
+
+#### Key Features
+
+- **Facial Detection**: Successfully detects and isolates facial images.
+- **Model Accuracy**: Achieved notable accuracy using the **SVM** model.
+- **Model Export**: The model is exported for future deployment using `pickle`.
+
+#### Resources
+
+- **Project Link**: [Click here](Your-Project-Link-Here)
+- **Deployment Link**: [Click here](Your-Deployment-Link-Here)
+
+
+
 
 ## Talks & Lectures
 
