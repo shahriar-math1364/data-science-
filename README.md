@@ -17,12 +17,25 @@
 - Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes
 
 ## Projects
-### Data-Driven EEG Band Discovery with Decision Trees
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
+### Used car price prediction
 
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
 
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
+
+Predict the resale value of used cars using data from multiple online platforms and advanced machine learning techniques.
+
+![Banner Image or Project Logo](path_to_your_image_or_logo)
+
+
+- **Objective**: Our aim with this project was to harness the power of machine learning to accurately estimate the resale value of used cars.
+  
+- **Data**: The dataset contains a comprehensive list of features that influence a car's resale value. This includes attributes such as `make`, `model`, `year`, `mileage`, `color`, among others.
+  
+- **Modeling**: We settled on the `RandomForestRegressor` from scikit-learn for its accuracy and robustness. Our model went through rigorous preprocessing, feature engineering, and fine-tuning stages to ensure optimal performance.
+  
+- **Performance**: We're proud to announce that our model achieved a Mean Absolute Error (MAE) of [YOUR_VALUE_HERE]. This metric emphasizes our model's capability in delivering reliable and accurate used car price estimates.
+  
+- **Deployment**: To make our solution accessible to users, we've rolled out a user-friendly web application. Here, users can obtain real-time price predictions by inputting relevant car details.
+
 
 ### Decoding Physical and Cognitive Impacts of Particulate Matter Concentrations at Ultra-Fine Scales
 [Publication](https://www.mdpi.com/1424-8220/22/11/4240)
