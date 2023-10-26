@@ -60,21 +60,20 @@ This repository contains a data-driven project that analyzes and predicts stress
 
 ### Women Celebrity Image Classifier
 
-A machine learning-based image processing tool that identifies and classifies celebrities.
+An image classification project that identifies and classifies images of Katy Perry, Rihanna, Lady Gaga, and Beyoncé using non-deep learning methods.
 
 #### Overview
 
-This project is centered around:
-- Processing images to detect facial attributes using **OpenCV**.
-- Employing **Wavelet Transform** to extract features from images.
-- Training a variety of machine learning models, including **SVM, Random Forest**, and others.
-- Fine-tuning models through **GridSearchCV** to reach optimum classification accuracy.
+- **Purpose**: The aim is to showcase an alternative to deep learning-based image classification by employing traditional machine learning techniques.
+- **Facial Detection**: Utilizes **OpenCV** for facial image processing and isolation.
+- **Feature Extraction**: Implements **Wavelet Transform** to extract features from images.
+- **Model Selection**: Multiple machine learning models were trained. **Support Vector Machine (SVM)** turned out to be the most accurate and is therefore the model of choice for this project.
+- **Fine-tuning**: Used **GridSearchCV** to refine the model parameters and achieve optimal classification accuracy.
 
 #### Key Features
 
-- **Facial Detection**: Successfully detects and isolates facial images.
-- **Model Accuracy**: Achieved notable accuracy using the **SVM** model.
-- **Model Export**: The model is exported for future deployment using `pickle`.
+- **Accurate Classification**: Achieved notable accuracy in distinguishing between the celebrities using the **SVM** model.
+- **Model Export**: The trained model is exported for further deployment using `pickle`.
 
 #### Resources
 
