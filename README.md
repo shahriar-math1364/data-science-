@@ -1,5 +1,7 @@
 # Data Scientist
 
+![Shahriar Mirzadeh]({{ site.logo }})
+
 ## Skills
 
 - **Programming**: Python (pandas, scikit-learn, TensorFlow, Keras), R, SQL

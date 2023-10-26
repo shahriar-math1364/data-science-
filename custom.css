@@ -1,0 +1,5 @@
+img[alt="Profile Image"] {
+    border-radius: 50%;
+    width: 100px;  /* Adjust this value according to your needs */
+    height: 100px; /* Adjust this value according to your needs */
+}
