@@ -23,9 +23,9 @@
 
 Predict the resale value of used cars using data from multiple online platforms and advanced machine learning techniques.
 
-![Banner Image or Project Logo](path_to_your_image_or_logo)
+![Banner Image or Project Logo]()
 
-
+-**Project Page**: For in-depth details, architecture, and more, [visit our dedicated project page](https://github.com/shahriar-math1364/data-science-/tree/main/Project1).
 - **Objective**: Our aim with this project was to harness the power of machine learning to accurately estimate the resale value of used cars.
   
 - **Data**: The dataset contains a comprehensive list of features that influence a car's resale value. This includes attributes such as `make`, `model`, `year`, `mileage`, `color`, among others.
@@ -34,7 +34,7 @@ Predict the resale value of used cars using data from multiple online platforms 
   
 - **Performance**: We're proud to announce that our model achieved a Mean Absolute Error (MAE) of [YOUR_VALUE_HERE]. This metric emphasizes our model's capability in delivering reliable and accurate used car price estimates.
   
-- **Deployment**: To make our solution accessible to users, we've rolled out a user-friendly web application. Here, users can obtain real-time price predictions by inputting relevant car details.
+- **Deployment**: To make our solution accessible to users, we've rolled out a user-friendly web application. Here, users can obtain real-time price predictions by inputting relevant car details.  Experience our prediction system in action! [Check out the live demo here](YOUR_LIVE_DEMO_LINK).
 
 
 ### Decoding Physical and Cognitive Impacts of Particulate Matter Concentrations at Ultra-Fine Scales
