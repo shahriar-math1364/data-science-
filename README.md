@@ -33,7 +33,7 @@ This repository hosts a machine learning model focused on predicting used car pr
 
 - The dataset consists of over 10,000 records of used cars with attributes like `make`, `model`, `mileage`, `location`, and their corresponding `price`.
 - Explored data, conducted preprocessing, and performed feature engineering to optimize the input for machine learning models.
-- Utilized regression algorithms such as Linear Regression, Random Forest, and Gradient Boosting.
+- Utilized regression algorithms such as **Linear Regression**, **Random Forest**, and **Gradient Boosting**.
 - Accomplished a significant R^2 score, showcasing the model's accuracy in predicting used car prices.
 
 #### Links
