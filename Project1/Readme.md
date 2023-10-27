@@ -46,9 +46,27 @@ Make use of the model for accurate used car price estimation.
 - Some columns underwent standardization processes using MinMaxScaler.
 
 ### Outlier Removal
-- Outliers were identified using visualization tools such as scatterplots and boxplots.
-- Specific criteria were set for outlier removal, based on attributes like `odo`, `year`, `condition`, and `type`.
-- Entries with ambiguous attributes like `transmission` set to `other` were removed.
+
+Outliers can dramatically affect the predictions and conclusions drawn from data. Hence, a systematic approach was adopted to identify and handle them:
+
+- **Visualization Tools:** 
+  - Scatterplots and boxplots were primarily used to visually identify outliers based on attributes.
+
+- **Statistical Criteria:** 
+  - **Price:** Any car priced below $500 was considered too low and potentially erroneous. On the higher end, cars priced above the 99th percentile were examined and removed if they were rare or luxury models not representative of the general dataset.
+  - **Odometer (odo):** Cars with mileage readings below 1,000 miles or above the 99.5th percentile were flagged. These were treated as potential outliers, especially for older car models.
+  - **Year:** Cars manufactured before 2001 were removed, considering technological and market changes. Any car listed with a future manufacture date was also removed as a clear anomaly.
+  - **Condition:** Cars listed in 'new' condition but with high mileage or older manufacture years were considered contradictory and removed.
+  - **Type:** Certain car types might have a very limited representation in the dataset. If any car type had less than a certain threshold of entries, those entries were reviewed and potentially removed to avoid skewness.
+
+- **Ambiguous Entries:** 
+  - Listings with ambiguous or contradictory attributes were removed. For instance, cars with the `transmission` set to `other` without any clear indication in the description were considered ambiguous.
+
+- **Z-Score:** 
+  - For continuous variables, a Z-score approach was used. Data points with a Z-score above 3 or below -3 were considered outliers and were removed.
+
+After the outlier removal process, the cleaned dataset was reviewed again using visualization tools to ensure the robustness of the data for modeling.
+
 
 ### Data Transformation
 - One-hot encoding was applied to categorical variables, producing a new, transformed dataset.
