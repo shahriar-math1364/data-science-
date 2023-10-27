@@ -91,7 +91,7 @@ An image classification project that identifies and classifies images of Katy Pe
 
 #### Overview
 
-This project encompasses:
+This project is centered around the **multiclass classification** of tomato diseases using a **Convolutional Neural Network (CNN)**. It is designed to classify tomatoes into the following classes: `Bacterial Spot`, `Early Blight`, `Late Blight`, and `Healthy`.
 - Loading and processing tomato images from a **Google Drive directory**.
 - Applying **data augmentation techniques** like random flips and rotations for better generalization.
 - Constructing a **Convolutional Neural Network (CNN)** using **TensorFlow** and **Keras** libraries for image classification.
