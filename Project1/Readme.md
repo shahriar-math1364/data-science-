@@ -55,6 +55,8 @@ Exploratory data analysis uncovers insights by analyzing year-wise and odometer-
 ![year-wise trend](https://github.com/shahriar-math1364/data-science-/blob/main/Project1/year-wise-trend.png)
 ![odometer reading vs price](https://github.com/shahriar-math1364/data-science-/blob/main/Project1/odometer-price.png)
 
+Based on the graphs above, it is evident that there exist many outliers that need to be removed before training our model. 
+
 ## Model Building
 The model building phase is focused on creating a regression model for used car price prediction. Key components of this phase include:
 
