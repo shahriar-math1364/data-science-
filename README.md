@@ -87,6 +87,30 @@ An image classification project that identifies and classifies images of Katy Pe
 - **Deployment Link**: [Click here](Your-Deployment-Link-Here)
 
 
+### Tomato Image Classification Project
+
+#### Overview
+
+This project encompasses:
+- Loading and processing tomato images from a **Google Drive directory**.
+- Applying **data augmentation techniques** like random flips and rotations for better generalization.
+- Constructing a **Convolutional Neural Network (CNN)** using **TensorFlow** and **Keras** libraries for image classification.
+- Training the model, evaluating its performance, and visualizing the classification results.
+
+#### Key Features
+
+- **Image Loading**: Efficiently loads and labels images using TensorFlow's capabilities.
+- **Data Augmentation**: Enhances training data variety through random transformations.
+- **CNN Architecture**: Multi-layered CNN architecture for intricate feature extraction from images.
+- **Model Evaluation**: Performance assessed on a test dataset, with visual comparisons between model predictions and actual labels.
+- **Model Export**: The trained model is saved as `tomatoes.h5` for potential deployment and further use.
+
+#### Resources
+
+- **Project Link**: [Click here](Your-Project-Link-Here)
+- **Deployment Link**: [Click here](Your-Deployment-Link-Here)
+
+
 
 
 ## Talks & Lectures
