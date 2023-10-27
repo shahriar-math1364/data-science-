@@ -39,14 +39,19 @@ Make use of the model for accurate used car price estimation.
 
 ## Data Preprocessing
 
-Data preprocessing is a crucial initial step in this project, including:
+### Data Cleaning
+- Columns like `lat` and `long` were considered irrelevant for our regression model and thus removed.
+- Modifications were made to combine similar attributes, and new columns like `size-c` were introduced.
+- Rows with suspicious data, like cars priced less than 500 or manufactured before 2001, were removed.
+- Some columns underwent standardization processes using MinMaxScaler.
 
-Dropping unnecessary features, such as 'id,' 'url,' 'image_url,' and more.
-Handling missing values, including removing columns with all missing values.
-Removing outliers based on price, year, and odometer.
-Feature engineering to create a new column named 'size-c' and standardize features like 'year' and 'cylinders.'
-One-hot encoding for categorical variables to convert them into numerical values.
+### Outlier Removal
+- Outliers were identified using visualization tools such as scatterplots and boxplots.
+- Specific criteria were set for outlier removal, based on attributes like `odo`, `year`, `condition`, and `type`.
+- Entries with ambiguous attributes like `transmission` set to `other` were removed.
 
+### Data Transformation
+- One-hot encoding was applied to categorical variables, producing a new, transformed dataset.
 
 
 ## Exploratory Data Analysis
