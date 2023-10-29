@@ -64,4 +64,4 @@ jobs:
         with:
           app-name: 'tomatodisease'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3805F7CF83CB46EC824AE6CB3FAFF4F7 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_80F609B62F9F426AB685A5CAE204CCAE }}
