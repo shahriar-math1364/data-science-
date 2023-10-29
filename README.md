@@ -1,4 +1,4 @@
-# [Shahriar Mirzadeh]
+# Shahriar Mirzadeh
 
 - **Email:** mirzasr@ucmail.uc.edu  
 - **Phone:** (781) 296-5207
@@ -9,11 +9,11 @@
 Highly skilled mathematician with expertise in coding, machine learning, probability, statistics, and linear algebra. Proven experience in leveraging deep mathematical knowledge to tackle machine learning challenges. Adapted traditional mathematical principles to modern machine learning scenarios. Eager to bring analytical rigor to data-driven decision-making roles.
 
 ## 🎓 Education:
-**Ph.D. in Mathematics,** [Brandeis University], [2018]  
-- *Thesis:* [Your Thesis Title]  
-- *Mentor:* Prof. [Dmitry Kleinbock]
+**Ph.D. in Mathematics,** Brandeis University, 2018  
+- *Thesis:* Your Thesis Title  
+- *Mentor:* Prof. Dmitry Kleinbock
 
-**M.Sc. in Mathematics,** [Sharif University of Technology, Tehran, Iran], [2012]
+**M.Sc. in Mathematics,** Sharif University of Technology, Tehran, Iran, 2012
 
 ## 💼 Relevant Work Experience:
 
