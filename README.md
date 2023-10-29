@@ -1,25 +1,36 @@
-# Data Scientist
+# [Shahriar Mirzadeh]
 
-## Skills
+- **Email:** mirzasr@ucmail.uc.edu  
+- **Phone:** (781) 296-5207
+- **LinkedIn:** [linkedin.com/in/yourusername](linkedin.com/in/yourusername)  
+- **GitHub:** [github.com/yourusername](github.com/yourusername) 
 
-- **Programming**: Python (pandas, scikit-learn, TensorFlow, Keras), R, SQL
-- **Data Analysis**: Regression, Classification, Clustering, Anomaly Detection
-- **Tools**: Jupyter Notebook, Tableau, SQL Server, Git
-- **Mathematics**: Probability, Statistics, Linear Algebra
-- **Deep Learning**: CNN, RNN, Transformers
+## 📌 Summary:
+Highly skilled mathematician with a background in algorithmic understanding and a passion for data science. Proven expertise in leveraging mathematical knowledge for machine learning applications. Adapted traditional mathematical principles to modern machine learning challenges. Eager to bring analytical rigor to data-driven decision-making roles.
 
-## Education
-- Ph.D., Mathematics | Brandeis University (_May 2018_)								       		
+## 🎓 Education:
+**Ph.D. in Mathematics,** [Brandeis University], [2018]  
+- *Thesis:* [Your Thesis Title]  
+- *Mentor:* Prof. [Dmitry Kleinbock]
 
+**M.Sc. in Mathematics,** [Sharif University of Technology, Tehran, Iran], [2012]
 
-## Work Experience
-**Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
-- Uncovered and corrected missing step in production data pipeline which impacted over 70% of active accounts
-- Redeveloped loan originations model which resulted in 50% improvement in model performance and saving 1 million dollars in potential losses
+## 💼 Relevant Work Experience:
 
-**Data Science Consultant @ Shawhin Talebi Ventures LLC (_December 2020 - Present_)**
-- Conducted data collection, processing, and analysis for novel study evaluating the impact of over 300 biometrics variables on human performance in hyper-realistic, live-fire training scenarios
-- Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes
+- **Visiting Assistant Professor,** Michigan State University, 2018-2021  
+  - Emphasized algorithmic understanding foundational for data science.
+  - Explored mathematical applications in machine learning.
+
+- **Lecturer,** Brandeis University, 2021-2022  
+  - Integrated computational methods in the math curriculum.
+  - Promoted synergy between mathematics and data science.
+
+- **Visiting Assistant Professor,** University of Cincinnati, 2022-2023  
+  - Bridged traditional mathematics with modern machine learning practices.
+
+- **Course Lead,** Python for Linear Algebra, Spring 2022  
+  - Emphasized practical application of Python in data science and machine learning.
+  - Guided students in computational mathematics using Python.
 
 ## Projects
 
