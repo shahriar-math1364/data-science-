@@ -49,7 +49,7 @@ This repository hosts a machine learning model focused on predicting used car pr
 - Accomplished a significant R^2 score, showcasing the model's accuracy in predicting used car prices.
 
 #### Links
-🔗 **Detailed Project Page**: [Click here](your_project_page_link)  
+🔗 **Detailed Project Page**: [Click here](https://github.com/shahriar-math1364/data-science-/tree/main/Project1)  
 🚀 **Live Deployment**: [Try it out](your_deployment_link)
 
 
@@ -71,7 +71,7 @@ This repository contains a data-driven project that analyzes and predicts stress
 - Model artifacts, including the best-performing model and relevant features, are saved for future deployment.
 
 #### Links
-🔗 **Detailed Project Page**: [Click here](your_project_page_link)  
+🔗 **Detailed Project Page**: [Click here](https://github.com/shahriar-math1364/data-science-/tree/main/Project2)  
 🚀 **Live Deployment**: [Try it out](your_deployment_link)
 
 
@@ -95,7 +95,7 @@ An image classification project that identifies and classifies images of Katy Pe
 
 #### Resources
 
-- **Project Link**: [Click here](Your-Project-Link-Here)
+- **Project Link**: [Click here](https://github.com/shahriar-math1364/data-science-/tree/main/Project3)
 - **Deployment Link**: [Click here](Your-Deployment-Link-Here)
 
 
@@ -119,7 +119,7 @@ This project is centered around the **multiclass classification** of tomato dise
 
 #### Resources
 
-- **Project Link**: [Click here](Your-Project-Link-Here)
+- **Project Link**: [Click here](https://github.com/shahriar-math1364/data-science-/tree/main/Project4)
 - **Deployment Link**: [Click here](Your-Deployment-Link-Here)
 
 
