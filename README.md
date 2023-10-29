@@ -6,7 +6,7 @@
 - **GitHub:** [github.com/yourusername](github.com/yourusername) 
 
 ## 📌 Summary:
-Highly skilled mathematician with a background in algorithmic understanding and a passion for data science. Proven expertise in leveraging mathematical knowledge for machine learning applications. Adapted traditional mathematical principles to modern machine learning challenges. Eager to bring analytical rigor to data-driven decision-making roles.
+Highly skilled mathematician with expertise in probability, statistics, and linear algebra. Proven experience in leveraging deep mathematical knowledge to tackle machine learning challenges. Adapted traditional mathematical principles to modern machine learning scenarios. Eager to bring analytical rigor to data-driven decision-making roles.
 
 ## 🎓 Education:
 **Ph.D. in Mathematics,** [Brandeis University], [2018]  
@@ -18,15 +18,16 @@ Highly skilled mathematician with a background in algorithmic understanding and 
 ## 💼 Relevant Work Experience:
 
 - **Visiting Assistant Professor,** Michigan State University, 2018-2021  
+  - Taught courses in Probability, Statistics, and Linear Algebra.
   - Emphasized algorithmic understanding foundational for data science.
   - Explored mathematical applications in machine learning.
 
 - **Lecturer,** Brandeis University, 2021-2022  
-  - Integrated computational methods in the math curriculum.
+  - Integrated computational methods with courses in Probability and Statistics.
   - Promoted synergy between mathematics and data science.
 
-- **Visiting Assistant Professor,** University of Cincinnati, 2022-2023  
-  - Bridged traditional mathematics with modern machine learning practices.
+- **Lecturer,** University of Cincinnati, 2022-2023  
+  - Bridged traditional mathematics with modern machine learning practices through Linear Algebra instruction.
 
 - **Course Lead,** Python for Linear Algebra, Spring 2022  
   - Emphasized practical application of Python in data science and machine learning.
