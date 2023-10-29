@@ -6,7 +6,7 @@
 - **GitHub:** [github.com/yourusername](github.com/yourusername) 
 
 ## 📌 Summary:
-Highly skilled mathematician with expertise in probability, statistics, and linear algebra. Proven experience in leveraging deep mathematical knowledge to tackle machine learning challenges. Adapted traditional mathematical principles to modern machine learning scenarios. Eager to bring analytical rigor to data-driven decision-making roles.
+Highly skilled mathematician with expertise in coding, machine learning, probability, statistics, and linear algebra. Proven experience in leveraging deep mathematical knowledge to tackle machine learning challenges. Adapted traditional mathematical principles to modern machine learning scenarios. Eager to bring analytical rigor to data-driven decision-making roles.
 
 ## 🎓 Education:
 **Ph.D. in Mathematics,** [Brandeis University], [2018]  
