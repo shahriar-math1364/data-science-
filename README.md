@@ -37,15 +37,13 @@ Highly skilled mathematician with expertise in coding, machine learning, probabi
 
 ### Used Car Price Prediction
 
-
-
 This repository hosts a machine learning model focused on predicting used car prices based on a variety of factors, such as car make, mileage, age, and location.
 
 #### Key Highlights
 
 - The dataset consists of over 10,000 records of used cars with attributes like `make`, `model`, `mileage`, `location`, and their corresponding `price`.
 - Explored data, conducted preprocessing, and performed feature engineering to optimize the input for machine learning models.
-- Utilized regression algorithms such as **Linear Regression**, **Random Forest**, and **Gradient Boosting**.
+- Utilized regression algorithms such as **Linear Regression**, **Random Forest**, and **Gradient Boosting**. Implemented **GridSearchCV** for hyperparameter tuning and model optimization to determine the best-performing model.
 - Accomplished a significant R^2 score, showcasing the model's accuracy in predicting used car prices.
 
 #### Links
