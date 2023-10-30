@@ -17,16 +17,16 @@ Highly skilled mathematician with expertise in coding, machine learning, probabi
 
 ## 💼 Relevant Work Experience:
 
-- **Visiting Assistant Professor,** Michigan State University, 2018-2021  
+- **Visiting Assistant Professor of Mathematics,** Michigan State University, 2018-2021  
   - Taught courses in Probability, Statistics, and Linear Algebra.
   - Emphasized algorithmic understanding foundational for data science.
   - Explored mathematical applications in machine learning.
 
-- **Lecturer,** Brandeis University, 2021-2022  
+- **Lecturer in Mathematics,** Brandeis University, 2021-2022  
   - Integrated computational methods with courses in Probability and Statistics.
   - Promoted synergy between mathematics and data science.
 
-- **Lecturer,** University of Cincinnati, 2022-2023  
+- **Visiting Assistnat Professor of Mathematics,** University of Cincinnati, 2022-2023  
   - Bridged traditional mathematics with modern machine learning practices through Linear Algebra instruction.
 
 - **Course Lead,** Python for Linear Algebra, Spring 2022  
