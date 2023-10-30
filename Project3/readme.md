@@ -53,6 +53,9 @@ pip install opencv-python numpy matplotlib pywt scikit-learn
 - **Cropping:** Images are cropped to only contain the facial region, ensuring irrelevant features are excluded.
 - **Wavelet Transformation:** To extract critical features, images undergo Wavelet Transformation, converting them into a machine-friendly format
 
+![before](https://github.com/shahriar-math1364/data-science-/blob/main/Project3/images/before-wave.png)
+![after](https://github.com/shahriar-math1364/data-science-/blob/main/Project3/images/after-wave.png)
+
 ## Model Building
 
 **Wavelet Transformation:** Before model training, a critical step in feature extraction involves applying Wavelet Transform to the preprocessed images. Wavelet Transformation decomposes an image into different frequency sub-bands, effectively capturing both spatial and frequency information. This allows the model to discern intricate patterns in the image which might be challenging to capture with raw pixel values alone.
