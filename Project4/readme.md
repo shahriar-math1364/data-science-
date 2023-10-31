@@ -33,7 +33,7 @@ The dataset used in this project consists of images of healthy tomato plants and
 - Tomato Mosaic Virus
 - Healthy Tomato
 
-The dataset comprises a total of [number] images, which are divided into training, validation, and testing sets. More detailed information about the dataset, including the distribution of images among different classes and the source of the dataset, can be found in the data description section of the project repository.
+The dataset comprises a total of 14733 images, which are divided into training, validation, and testing sets. More detailed information about the dataset, including the distribution of images among different classes and the source of the dataset, can be found in the data description section of the project repository.
 
 ## Installation
 To run this project and the CNN-based tomato disease classification model, you'll need to install the required Python libraries and dependencies. You can do this using pip:
