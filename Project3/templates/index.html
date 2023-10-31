@@ -8,22 +8,22 @@
     <h1>Celebrity Gallery</h1>
     <!-- Rihanna -->
     <div class="celebrity">
-        <img src="rihanna.jpg" alt="Rihanna">
+        <img src="{{ url_for('static', filename='rihanna.jpg') }}" alt="Rihanna"
         <p>Rihanna</p>
     </div>
     <!-- Katy Perry -->
     <div class="celebrity">
-        <img src="katy perry.jpg" alt="Katy Perry">
+        <img src="{{ url_for('static', filename='katy perry.jpg') }}" alt="Katy Perry"
         <p>Katy Perry</p>
     </div>
     <!-- Lady Gaga -->
     <div class="celebrity">
-        <img src="lady gaga.jpg" alt="Lady Gaga">
+        <img src="{{ url_for('static', filename='lady gaga.jpg') }}" alt="Lady Gaga">
         <p>Lady Gaga</p>
     </div>
     <!-- Beyoncé -->
     <div class="celebrity">
-        <img src="beyonce.jpg" alt="Beyoncé">
+        <img src="{{ url_for('static', filename='beyonce.jpg') }}" alt="Beyoncé">
         <p>Beyoncé</p>
     </div>
 </body>

@@ -9,7 +9,7 @@ from keras.applications.vgg16 import decode_predictions
 #from keras.applications.vgg16 import VGG16
 from keras.applications.resnet50 import ResNet50
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder="static")
 model = ResNet50()
 
 @app.route('/', methods=['GET'])
@@ -29,12 +29,15 @@ def predict():
     formatted_strings = []
     classes = ["Katy Perry", "Rihanna", "Lady Gaga", "Beyonce"]
     class_probabilities = dict(zip(classes, prob))
-    formatted_string = "\n".join([f"{cls}: {prob:.2f}" for cls, prob in class_probabilities.items()])
-    formatted_strings.append(formatted_string)
-    resulting_string = "\n\n".join(formatted_strings)
 
-    return render_template('index.html', prediction=resulting_string)
+    # Sort the class_probabilities dictionary by probabilities in descending order
+    sorted_class_probabilities = dict(sorted(class_probabilities.items(), key=lambda x: x[1], reverse=True))
+
+    # Create a list of strings for predictions in descending order with "%" sign
+    predictions_list = [f"{cls}: {prob:.2f}" for cls, prob in sorted_class_probabilities.items()]
+
+    return render_template('next_page.html', predictions=predictions_list)
 
 
 if __name__ == '__main__':
-    app.run(port=1000, debug=True)
+    app.run(port=5000, debug=True)
