@@ -1,7 +1,9 @@
 fastapi
 uvicorn
 tensorflow
-io
+matplotlib.pyplot
 numpy
+pillow
+io
 
 
