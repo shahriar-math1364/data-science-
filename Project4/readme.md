@@ -20,7 +20,20 @@ Tomatoes are one of the most cultivated crops around the world. Identifying dise
 
 
 ## Data
-The dataset used in this project consists of images of healthy tomato plants and various diseases, including [list diseases]. The dataset comprises a total of [number] images, which are divided into training, validation, and testing sets. More information about the dataset can be found in the data description in the project repository.
+The dataset used in this project consists of images of healthy tomato plants and various diseases, including:
+
+- Tomato Bacterial Spot
+- Tomato Early Blight
+- Tomato Late Blight
+- Tomato Leaf Mold
+- Tomato Septoria Leaf Spot
+- Tomato Spider Mites (Two-Spotted Spider Mite)
+- Tomato Target Spot
+- Tomato Yellow Leaf Curl Virus
+- Tomato Mosaic Virus
+- Healthy Tomato
+
+The dataset comprises a total of [number] images, which are divided into training, validation, and testing sets. More detailed information about the dataset, including the distribution of images among different classes and the source of the dataset, can be found in the data description section of the project repository.
 
 ## Installation
 To run this project and the CNN-based tomato disease classification model, you'll need to install the required Python libraries and dependencies. You can do this using pip:
