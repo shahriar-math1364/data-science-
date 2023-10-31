@@ -17,7 +17,7 @@ Tomatoes are one of the most cultivated crops around the world. Identifying dise
 - [Results](#results)
 - [Future Work](#future-work)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Data
 The dataset used in this project consists of images of healthy tomato plants and various diseases, including [list diseases]. The dataset comprises a total of [number] images, which are divided into training, validation, and testing sets. More information about the dataset can be found in the data description in the project repository.
