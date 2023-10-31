@@ -56,6 +56,52 @@ pip install opencv-python numpy matplotlib pywt scikit-learn
 ![before](https://github.com/shahriar-math1364/data-science-/blob/main/Project3/images/before-wave.png)
 ![after](https://github.com/shahriar-math1364/data-science-/blob/main/Project3/images/after-wave.png)
 
+## Model Training Process
+
+This section provides an in-depth overview of the model training process for celebrity image classification using a combination of raw and wavelet-transformed image features.
+
+### Data Preparation
+
+#### Cropped Image Collection
+- Cropped images of various women celebrities are collected and organized into separate directories.
+- Each directory corresponds to a specific celebrity, such as Katy Perry, Rihanna, etc.
+
+#### Celebrity Data Mapping
+- A Python dictionary named `celebrity_file_names_dict` is created to establish a mapping between celebrity names and lists of file paths to their respective cropped images.
+- This mapping simplifies the organization and retrieval of images during the training process.
+
+#### Class Labeling
+- To facilitate supervised learning, class labels are assigned to each celebrity.
+- Each celebrity is associated with a unique integer label.
+- This step prepares the data for classification.
+
+### Feature Extraction
+
+#### Raw Images
+- Raw color images are resized uniformly to a size of 32x32 pixels.
+- The resized images are then flattened into a single 1D array of 4096 float values.
+- This process prepares the raw image data for feature extraction.
+
+#### Wavelet Transform Features
+- The model training process leverages wavelet transform features.
+- The `w2d` function is applied to each cropped image.
+- The Haar wavelet is chosen, and the transform is performed at a level of 5.
+- The resulting wavelet-transformed images are resized to 32x32 pixels and flattened into 1D arrays of 1024 float values.
+
+### Data Concatenation
+
+#### Combined Features
+- Features extracted from both the raw images and wavelet-transformed images are concatenated for each image.
+- This concatenation results in a combined feature vector of 5120 float values for each image.
+- The combined feature vector encapsulates the information from both raw and wavelet-transformed representations.
+
+### Data Splitting
+
+#### Training and Testing Sets
+- The dataset is divided into training and testing sets.
+- The `train_test_split` function from scikit-learn is utilized for this purpose.
+- This split ensures that a portion of the data is reserved for training the model, while the remainder is dedicated to evaluating its performance.
+
 ## Model Building
 
 **Wavelet Transformation:** Before model training, a critical step in feature extraction involves applying Wavelet Transform to the preprocessed images. Wavelet Transformation decomposes an image into different frequency sub-bands, effectively capturing both spatial and frequency information. This allows the model to discern intricate patterns in the image which might be challenging to capture with raw pixel values alone.
