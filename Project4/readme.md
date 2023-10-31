@@ -91,6 +91,8 @@ CNNs have excelled in image classification due to their ability to discern hiera
 - Validation accuracy consistently exceeded 98%, indicating good generalization to unseen data.
 - The loss function decreased progressively during training, further supporting the model's learning process.
 
+![result]('https://github.com/shahriar-math1364/data-science-/blob/main/Project4/images/epochs.png')
+
 ### Test Evaluation
 
 - The trained model was evaluated on a separate test dataset.
