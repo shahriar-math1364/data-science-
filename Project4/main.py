@@ -6,7 +6,10 @@ import io
 import numpy as np
 from app.model import recognize_image
 
-app = FastAPI(static_folder='C:\\Users\\mirzadsr\\Documents\\GitHub\\data-science-\\Project4\\static')
+app = FastAPI()
+
+# Mount the /static route to serve static files from the "static" directory
+app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
 
 @app.get("/", response_class=HTMLResponse)
