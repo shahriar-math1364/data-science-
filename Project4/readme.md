@@ -81,3 +81,32 @@ The model architecture designed for this task is a multi-layered Convolutional N
 
 ### **Rationale:**
 CNNs have excelled in image classification due to their ability to discern hierarchical spatial features in images. Starting from basic edge detectors, they proceed to understand advanced patterns. Our architecture, infused with multiple layers, aims to extract a diverse set of features from the tomato images, enhancing classification accuracy.
+
+## Results
+
+### Training and Validation
+
+- The model was trained for a total of 50 epochs.
+- Training accuracy reached 100%, demonstrating the model's ability to fit the training data effectively.
+- Validation accuracy consistently exceeded 98%, indicating good generalization to unseen data.
+- The loss function decreased progressively during training, further supporting the model's learning process.
+
+### Test Evaluation
+
+- The trained model was evaluated on a separate test dataset.
+- Test accuracy achieved an impressive 99.14%, demonstrating the model's ability to classify tomato images accurately.
+- The test loss was computed at 0.0875, indicating minimal errors in prediction.
+
+### Epoch-wise Performance
+
+The model's performance was observed throughout each epoch:
+
+- Epoch 1-10: Rapid convergence with 100% training accuracy.
+- Epoch 11-20: High training and validation accuracy maintained.
+- Epoch 21-30: Stable accuracy performance.
+- Epoch 31-40: Continued high accuracy levels.
+- Epoch 41-50: Model accuracy stabilized, indicating robust learning.
+
+The model displayed resistance to overfitting, as evident from consistent validation and test accuracy.
+
+These detailed results demonstrate the effectiveness of the tomato classification model, making it suitable for real-world tomato image classification tasks.
