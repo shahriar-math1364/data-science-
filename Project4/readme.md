@@ -112,3 +112,22 @@ The model's performance was observed throughout each epoch:
 The model displayed resistance to overfitting, as evident from consistent validation and test accuracy.
 
 These detailed results demonstrate the effectiveness of the tomato classification model, making it suitable for real-world tomato image classification tasks.
+
+
+## Future Work
+
+The Tomato Classification project is an ongoing effort, and there are several areas for future work and improvement:
+
+1. **Fine-Tuning Hyperparameters:** Continue fine-tuning the model's hyperparameters to further enhance its performance. Experiment with different learning rates, batch sizes, and optimizer settings to optimize training.
+
+2. **Transfer Learning:** Explore the potential of transfer learning by using pre-trained deep learning models like ResNet, Inception, or EfficientNet. Fine-tune these models on the tomato dataset for potentially better feature extraction.
+
+3. **Data Augmentation:** Implement advanced data augmentation techniques such as CutMix, MixUp, or AutoAugment to improve model generalization and robustness, especially in handling diverse tomato conditions.
+
+4. **Model Architectures:** Investigate alternative neural network architectures, such as convolutional neural networks (CNNs) with different depths and structures, to find the best architecture for tomato classification.
+
+5. **Localization:** Extend the model to not only classify tomatoes but also detect and localize the regions of interest (tomatoes) within an image. This could be valuable for applications like tomato counting.
+
+6. **Interpretability:** Implement model interpretability techniques to gain insights into why the model makes specific predictions. Tools like Grad-CAM or SHAP can help understand the model's decision-making process.
+
+
