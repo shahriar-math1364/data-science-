@@ -1,0 +1,10 @@
+pandas
+seaborn
+matplotlib.pyplot
+numpy
+sklearn
+matplotlib.ticker
+pickle
+json
+flask
+joblib

@@ -1,4 +1,9 @@
+pandas
+sklearn
 flask
-
-
 xgboost
+matplotlib.pyplot
+numpy
+seaborn
+pickle
+jason
