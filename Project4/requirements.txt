@@ -1,9 +1,8 @@
 fastapi
 uvicorn
 tensorflow
-matplotlib.pyplot
 numpy
 pillow
-io
+
 
 

@@ -2,15 +2,10 @@ from flask import Flask, render_template, request
 import joblib
 import numpy as np
 import util
-from keras.preprocessing.image import load_img
-from keras.preprocessing.image import img_to_array
-from keras.applications.vgg16 import preprocess_input
-from keras.applications.vgg16 import decode_predictions
-#from keras.applications.vgg16 import VGG16
-from keras.applications.resnet50 import ResNet50
+
 
 app = Flask(__name__, static_folder="static")
-model = ResNet50()
+
 
 @app.route('/', methods=['GET'])
 def hello_word():

@@ -1,0 +1,11 @@
+opencv-python
+numpy
+pywt
+matplotlib
+os
+shutil
+pandas
+pickle
+flask
+joblib
+util
