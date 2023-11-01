@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Recognition</title>
+    <title>Tomato Disease Image Recognition</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -54,10 +54,10 @@
 </head>
 <body>
     <div class="container">
-        <h1>Image Recognition</h1>
+        <h1>Tomato Disease Image Recognition</h1>
         <form action="/upload/" method="post" enctype="multipart/form-data">
             <input type="file" name="file">
-            <input type="submit" value="Upload and Recognize">
+            <input type="submit" value="Upload an image of a tomato leaf for disease diagnosis using our CNN model">
         </form>
         <div id="result">{{ result }}</div>
         <img src="/static/example_image.JPG" alt="Example Image">
