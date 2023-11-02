@@ -107,6 +107,7 @@ Here are the results that we obtain:
 
 
 ## Deployment
+
 You can visit the application at its live URL:
 
 [View Live Application](http://13.58.23.77:2000)
