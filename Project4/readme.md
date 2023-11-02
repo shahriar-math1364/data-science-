@@ -23,18 +23,78 @@ Tomatoes are one of the most cultivated crops around the world. Identifying dise
 ## Data
 The dataset used in this project consists of images of healthy tomato plants and various diseases, including:
 
-- Tomato Bacterial Spot
-- Tomato Early Blight
-- Tomato Late Blight
-- Tomato Leaf Mold
-- Tomato Septoria Leaf Spot
-- Tomato Spider Mites (Two-Spotted Spider Mite)
-- Tomato Target Spot
-- Tomato Yellow Leaf Curl Virus
-- Tomato Mosaic Virus
-- Healthy Tomato
-
-The dataset comprises a total of 14733 images, which are divided into training, validation, and testing sets. More detailed information about the dataset, including the distribution of images among different classes and the source of the dataset, can be found in the data description section of the project repository.
+<table>
+<tr>
+<td>
+  
+### Tomato Bacterial Spot
+![Tomato Bacterial Spot](https://github.com/shahriar-math1364/data-science-/blob/main/Project4/Tomato%20classification%20pictures/Tomato_Bacterial_spot/00416648-be6e-4bd4-bc8d-82f43f8a7240___GCREC_Bact.Sp%203110.JPG)
+  
+</td>
+<td>
+  
+### Tomato Early Blight
+![Tomato Early Blight](https://github.com/shahriar-math1364/data-science-/blob/main/Project4/Tomato%20classification%20pictures/Tomato_Early_blight/0012b9d2-2130-4a06-a834-b1f3af34f57e___RS_Erly.B%208389.JPG)
+  
+</td>
+</tr>
+<tr>
+<td>
+  
+### Tomato Late Blight
+![Tomato Late Blight](https://github.com/shahriar-math1364/data-science-/blob/main/Project4/Tomato%20classification%20pictures/Tomato_Late_blight/0003faa8-4b27-4c65-bf42-6d9e352ca1a5___RS_Late.B%204946.JPG)
+  
+</td>
+<td>
+  
+### Tomato Leaf Mold
+![Tomato Leaf Mold](https://github.com/shahriar-math1364/data-science-/blob/main/Project4/Tomato%20classification%20pictures/Tomato_Leaf_Mold/00694db7-3327-45e0-b4da-a8bb7ab6a4b7___Crnl_L.Mold%206923.JPG)
+  
+</td>
+</tr>
+<tr>
+<td>
+  
+### Tomato Septoria Leaf Spot
+![Tomato Septoria Leaf Spot](https://github.com/shahriar-math1364/data-science-/blob/main/Project4/Tomato%20classification%20pictures/Tomato_Septoria_leaf_spot/002533c1-722b-44e5-9d2e-91f7747b2543___Keller.St_CG%201831.JPG)
+  
+</td>
+<td>
+  
+### Tomato Spider Mites (Two-Spotted Spider Mite)
+![Tomato Spider Mites](URL-of-the-image)
+  
+</td>
+</tr>
+<tr>
+<td>
+  
+### Tomato Target Spot
+![Tomato Target Spot](URL-of-the-image)
+  
+</td>
+<td>
+  
+### Tomato Yellow Leaf Curl Virus
+![Tomato Yellow Leaf Curl Virus](URL-of-the-image)
+  
+</td>
+</tr>
+<tr>
+<td>
+  
+### Tomato Mosaic Virus
+![Tomato Mosaic Virus](URL-of-the-image)
+  
+</td>
+<td>
+  
+### Healthy Tomato
+![Healthy Tomato](URL-of-the-image)
+  
+</td>
+</tr>
+</table>The dataset comprises a total of 14733 images, which are divided into training, validation, and testing sets. More detailed information about the dataset, including the distribution of images among different classes and the source of the dataset, can be found in the data description section of the project repository.
 
 ## Installation
 To run this project and the CNN-based tomato disease classification model, you'll need to install the required Python libraries and dependencies. You can do this using pip:
