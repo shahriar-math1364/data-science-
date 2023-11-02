@@ -3,7 +3,7 @@
 - **Email:** mirzasr@ucmail.uc.edu  
 - **Phone:** (781) 296-5207
 - **LinkedIn:** [linkedin.com/in/yourusername](linkedin.com/in/yourusername)  
-- **GitHub:** [github.com/yourusername](github.com/yourusername) 
+- **GitHub:** [github.com/yourusername](https://shahriar-math1364.github.io/data-science-/) 
 
 ## 📌 Summary:
 Highly skilled mathematician with expertise in coding, machine learning, probability, statistics, and linear algebra. Proven experience in leveraging deep mathematical knowledge to tackle machine learning challenges. Adapted traditional mathematical principles to modern machine learning scenarios. Eager to bring analytical rigor to data-driven decision-making roles.
@@ -48,7 +48,7 @@ This repository hosts a machine learning model focused on predicting used car pr
 
 #### Links
 🔗 **Detailed Project Page**: [Click here](https://github.com/shahriar-math1364/data-science-/tree/main/Project1)  
-🚀 **Live Deployment**: [Try it out](your_deployment_link)
+🚀 **Live Deployment**: [Try it out](http://13.58.23.77:5000)
 
 
 
@@ -70,7 +70,7 @@ This repository contains a data-driven project that analyzes and predicts stress
 
 #### Links
 🔗 **Detailed Project Page**: [Click here](https://github.com/shahriar-math1364/data-science-/tree/main/Project2)  
-🚀 **Live Deployment**: [Try it out](your_deployment_link)
+🚀 **Live Deployment**: [Try it out](http://13.58.23.77:2000)
 
 
 
@@ -94,7 +94,7 @@ An image classification project that identifies and classifies images of Katy Pe
 #### Resources
 
 - **Project Link**: [Click here](https://github.com/shahriar-math1364/data-science-/tree/main/Project3)
-- **Deployment Link**: [Click here](Your-Deployment-Link-Here)
+- **Deployment Link**: [Click here](http://3.12.160.18:5000)
 
 
 ### Tomato Image Classification Project
@@ -118,7 +118,7 @@ This project is centered around the **multiclass classification** of tomato dise
 #### Resources
 
 - **Project Link**: [Click here](https://github.com/shahriar-math1364/data-science-/tree/main/Project4)
-- **Deployment Link**: [Click here](Your-Deployment-Link-Here)
+- **Deployment Link**: [Click here](http://3.12.160.18:8000)
 
 
 
