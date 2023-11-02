@@ -3,7 +3,7 @@
 - **Email:** mirzasr@ucmail.uc.edu  
 - **Phone:** (781) 296-5207
 - **LinkedIn:** [linkedin.com/in/yourusername](linkedin.com/in/yourusername)  
-- **GitHub:** [github.com/yourusername](https://shahriar-math1364.github.io/data-science-/) 
+- **GitHub:** [https://github.com/shahriar-math1364/data-science-](https://github.com/shahriar-math1364/data-science-) 
 
 ## 📌 Summary:
 Highly skilled mathematician with expertise in coding, machine learning, probability, statistics, and linear algebra. Proven experience in leveraging deep mathematical knowledge to tackle machine learning challenges. Adapted traditional mathematical principles to modern machine learning scenarios. Eager to bring analytical rigor to data-driven decision-making roles.
