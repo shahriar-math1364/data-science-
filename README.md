@@ -1,6 +1,6 @@
 # Shahriar Mirzadeh
 
-- **Email:** mirzasr@ucmail.uc.edu  
+- **Email:** mirzadsr@ucmail.uc.edu  
 - **Phone:** (781) 296-5207
 - **LinkedIn:** [linkedin.com/in/yourusername](linkedin.com/in/yourusername)  
 - **GitHub:** [https://github.com/shahriar-math1364/data-science-](https://github.com/shahriar-math1364/data-science-) 
