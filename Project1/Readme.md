@@ -1,6 +1,6 @@
 # Used Car Price Regression Project
 
-![Shakira](https://github.com/shahriar-math1364/data-science-/blob/main/Project1/usedcar.jpg)
+![Shakira](https://github.com/shahriar-math1364/data-science-/blob/main/Project1/images/usedcar.jpg)
 
 ## Project Overview
 The dataset consists of various features of used cars, such as make, model, year, mileage, and more. These attributes serve as inputs for the model to predict the price of the vehicles.
@@ -24,7 +24,7 @@ The dataset consists of various features of used cars, such as make, model, year
 ## Data
  Here's an outline of the main project components:
 
-![data](https://github.com/shahriar-math1364/data-science-/blob/main/Project1/Screenshot.png)
+![data](https://github.com/shahriar-math1364/data-science-/blob/main/Project1/images/Screenshot.png)
 
 ## Installation
 List the necessary libraries and dependencies for running your project. You can include code snippets for installation.
@@ -77,8 +77,8 @@ After the outlier removal process, the cleaned dataset was reviewed again using 
 ## Exploratory Data Analysis
 Exploratory data analysis uncovers insights by analyzing year-wise and odometer-wise price trends. Visualizations are used to discover data patterns and relationships between features and car prices.
 
-![year-wise trend](https://github.com/shahriar-math1364/data-science-/blob/main/Project1/year-wise-trend.png)
-![odometer reading vs price](https://github.com/shahriar-math1364/data-science-/blob/main/Project1/odometer-price.png)
+![year-wise trend](https://github.com/shahriar-math1364/data-science-/blob/main/Project1/images/year-wise-trend.png)
+![odometer reading vs price](https://github.com/shahriar-math1364/data-science-/blob/main/Project1/images/odometer-price.png)
 
 Based on the graphs above, it is evident that there exist many outliers that need to be removed before training our model. 
 
@@ -99,7 +99,7 @@ The model is evaluated using a 5-fold ShuffleSplit cross-validation strategy to 
 
 Here are the results that we obtain:
 
-![results](https://github.com/shahriar-math1364/data-science-/blob/main/Project1/result.png)
+![results](https://github.com/shahriar-math1364/data-science-/blob/main/Project1/images/result.png)
 
 
 
