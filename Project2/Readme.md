@@ -94,7 +94,22 @@ An XGBoost model is trained and optimized using GridSearchCV. The best model is 
 
 ## Model Deployment
 
-For model deployment, the best-performing model (XGBoost) is saved to a pickle file. Additionally, the names of the columns used for model training are stored in a JSON file. This prepares the model for future deployment or integration into applications.
+## Deployment
+
+The application is now live and can be visited at the provided URL:
+
+[Access Live Application]()
+
+### Overview of System Architecture
+
+- **Machine Learning Model**: Our model is deployed on the AWS platform, ensuring scalability to accommodate varying loads.
+- **Flask Application**: Acts as a lightweight web server, offering REST API endpoints for machine learning model interaction.
+- **AWS Service**: Utilizing EC2 for dependable, scalable cloud hosting.
+
+
+### Utilizing the Flask Application
+
+The primary file for the Flask application, `app.py`, is available on the main page of this repository.
 
 ## Future Work
 - In the future, this project could be expanded by:
