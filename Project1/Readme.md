@@ -100,17 +100,38 @@ Here are the results that we obtain:
 
 ![results](https://github.com/shahriar-math1364/data-science-/blob/main/Project1/result.png)
 
-## Evaluation
+
 
 
 ## Results
 
+
+## Deployment
+You can visit the application at its live URL:
+
+[View Live Application](http://13.58.23.77:2000)
+
+### System Architecture Outline
+
+- **Machine Learning Model**: The model operates on the AWS cloud infrastructure, providing a flexible and scalable environment for request handling.
+- **Flask Service**: Our Flask service acts as a minimalist web server, supplying RESTful API endpoints to engage with the machine learning model.
+- **Utilized AWS Service**: The application is anchored on EC2 instances.
+
+### Flask Application Access
+
+You can locate the `app.py` file, which is the centerpiece of the Flask application, on the main repository page.
 
 ## Future Work
 
 
 ## Contributing
 
-## License
+We welcome contributions from the community. Whether you're fixing bugs, improving the documentation, or proposing new features, we would love to see your efforts to help improve this project. If you're interested in contributing, please follow these steps:
+
+1. Fork the repository on GitHub.
+2. Create a new branch for your feature or fix.
+3. Write your code and add tests if possible.
+4. Ensure your code lints and adheres to the existing style of the project.
+5. Submit a pull request with a clear description of your changes
 
 
