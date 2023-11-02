@@ -10,7 +10,7 @@ Highly skilled mathematician with expertise in coding, machine learning, probabi
 
 ## 🎓 Education:
 **Ph.D. in Mathematics,** Brandeis University, 2018  
-- *Thesis:* Your Thesis Title  
+- *Thesis:* Dimension estimates for the set of points with non-dense orbit in homogeneous spaces  
 - *Mentor:* Prof. Dmitry Kleinbock
 
 **M.Sc. in Mathematics,** Sharif University of Technology, Tehran, Iran, 2012
