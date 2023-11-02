@@ -15,7 +15,7 @@ The dataset consists of various features of used cars, such as make, model, year
 - [GridSearchCV for Hyperparameter Tuning](#gridsearchcv-for-hyperparameter-tuning) 
 - [Evaluation](#evaluation)
 - [Results](#results)
-- [Deployment)(#deployment)
+- [Deployment](#deployment)
 - [Future Work](#future-work)
 - [Contributing](#contributing)
 - [License](#license)
