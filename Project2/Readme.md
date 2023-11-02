@@ -94,7 +94,6 @@ An XGBoost model is trained and optimized using GridSearchCV. The best model is 
 
 ## Model Deployment
 
-## Deployment
 
 The application is now live and can be visited at the provided URL:
 
