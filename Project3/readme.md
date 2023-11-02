@@ -122,9 +122,24 @@ The SVM emerged as the superior model, delivering the highest accuracy among all
 
 ## Deployment
 
-The model has been successfully deployed to Google Cloud. This allows for real-time predictions and broadens the potential applications of our celebrity face recognition system. The deployment on Google Cloud ensures high availability and scalability, enabling users to access the model from anywhere and at any scale.
 
-For access details, API documentation, and usage instructions related to the Google Cloud deployment, please refer to the [Deployment Documentation](link-to-your-deployment-documentation).
+The project is deployed on Amazon Web Services (AWS), making use of its robust, scalable cloud computing resources to ensure high availability and performance. The application backend is a Flask app which serves as an interface to the machine learning model.
+
+### Deployment Link
+
+
+The deployed application is accessible at the following URL: ![Live Application]()
+
+### Architecture Overview
+
+- **Machine Learning Model**: Hosted on AWS, the model is scalable and can handle a variable number of requests.
+- **Flask Application**: A lightweight web server that provides REST API endpoints for interacting with the machine learning model.
+- **AWS Service**: EC2
+
+### Accessing the Flask App
+
+The `app.py` file is the Flask application's main file and can be found at this page.
+
 
 ## Contributing
 
