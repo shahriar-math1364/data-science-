@@ -97,7 +97,7 @@ An XGBoost model is trained and optimized using GridSearchCV. The best model is 
 
 The application is now live and can be visited at the provided URL:
 
-[Access Live Application]()
+[Access Live Application](http://13.58.23.77:5000)
 
 ### Overview of System Architecture
 
