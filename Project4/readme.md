@@ -15,6 +15,7 @@ Tomatoes are one of the most cultivated crops around the world. Identifying dise
 - [Training](#training)
 - [Evaluation](#evaluation)
 - [Results](#results)
+- [Deployment](#deployment)
 - [Future Work](#future-work)
 - [Contributing](#contributing)
 
@@ -126,6 +127,22 @@ The model displayed resistance to overfitting, as evident from consistent valida
 
 These detailed results demonstrate the effectiveness of the tomato classification model, making it suitable for real-world tomato image classification tasks.
 
+
+## Deployment
+
+The live application can be reached via the URL below:
+
+[Access Live Application](http://3.12.160.18:8000)
+
+### Overview of System Architecture
+
+- **Machine Learning Model**: The model is deployed on AWS, offering a robust and dynamic platform that can manage a varying load of inference requests.
+- **FastAPI Service**: A modern and fast (high-performance) web framework for building APIs with Python 3.7+, which provides RESTful endpoints to interact with the machine learning model.
+- **AWS Hosting Service**: Utilizes EC2 for reliable and scalable hosting.
+
+### FastAPI Application Entry
+
+For the entry point to the FastAPI service, look for the `main.py` file which serves as the core of the application, available on the main repository page.
 
 ## Future Work
 
