@@ -113,6 +113,7 @@ You can visit the application at its live URL:
 
 [View Live Application](http://13.58.23.77:2000)
 
+
 ### System Architecture Outline
 
 - **Machine Learning Model**: The model operates on the AWS cloud infrastructure, providing a flexible and scalable environment for request handling.
