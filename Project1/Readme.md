@@ -99,7 +99,7 @@ After the outlier removal process, the cleaned dataset was reviewed again using 
 
 
 ### Data Transformation
-- One-hot encoding was applied to categorical variables, producing a new, transformed dataset.
+One-hot encoding was applied to categorical variables, producing a new, transformed dataset.
 
 
 
