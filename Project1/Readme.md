@@ -7,7 +7,6 @@ The dataset consists of various features of used cars, such as make, model, year
 
 ## Table of Contents
 - [Data](#data)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Data Preprocessing](#data-preprocessing)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
@@ -26,18 +25,21 @@ The dataset consists of various features of used cars, such as make, model, year
 
 ![data](https://github.com/shahriar-math1364/data-science-/blob/main/Project1/images/Screenshot.png)
 
-## Installation
-List the necessary libraries and dependencies for running your project. You can include code snippets for installation.
+
 
 ## Usage
 
-To utilize the project, follow these steps:
+## Usage
+Using the project is straightforward. Follow these steps:
 
-Clone the project repository from GitHub.
-Install the required dependencies using pip install -r requirements.txt.
-Run the Jupyter Notebook or Python script to build and train the regression model.
-Input relevant data and obtain price predictions.
-Make use of the model for accurate used car price estimation.
+1. **Clone the Repository:** Start by cloning the project repository from GitHub to your local machine.
+
+2. **Install Dependencies:** After cloning, navigate to the project directory and use the requirements.txt file to install all the required dependencies, as mentioned in the Installation section.
+
+
+3. **Run the Model:** Execute the Jupyter Notebook named "regression-project.ipynb" included in the repository. This notebook contains the code to build and train the regression model using the provided dataset.
+
+
 
 ## Exploratory Data Analysis
 Exploratory data analysis uncovers insights by analyzing year-wise and odometer-wise price trends. Visualizations are used to discover data patterns and relationships between features and car prices.
