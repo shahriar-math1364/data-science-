@@ -90,19 +90,19 @@ After evaluating the models, we find that the Decision Tree Regression model per
 
 
 ## GridSearchCV for Hyperparameter Tuning:
-To optimize the performance of our regression models, we employ GridSearchCV, a powerful technique that systematically explores various hyperparameters to determine the best configuration. This approach ensures that our models are fine-tuned for the best possible predictive accuracy.
+To optimize the performance of our regression models, we employ **GridSearchCV**, a powerful technique that systematically explores various hyperparameters to determine the best configuration. This approach ensures that our models are fine-tuned for the best possible predictive accuracy.
 
 #### Linear Regression
 
-For the Linear Regression model, we search for the best hyperparameters by exploring the 'fit_intercept' parameter with values 'True' and 'False.' GridSearchCV evaluates different combinations using a 5-fold ShuffleSplit cross-validation strategy.
+For the **Linear Regression model**, we search for the best hyperparameters by exploring the **'fit_intercept'** parameter with values **'True'** and **'False.'** GridSearchCV evaluates different combinations using a **5-fold ShuffleSplit** cross-validation strategy.
 
 #### Lasso Regression
 
-In the case of Lasso Regression, we tune hyperparameters like 'alpha' (with options 1 and 2) and 'selection' ('random' or 'cyclic'). GridSearchCV helps us find the optimal hyperparameters to improve model performance.
+In the case of **Lasso Regression**, we tune hyperparameters like **'alpha'** (with options **1** and **2**) and **'selection'** ('random' or 'cyclic'). **GridSearchCV** helps us find the optimal hyperparameters to improve model performance.
 
 #### Decision Tree Regression
 
-Similarly, for the Decision Tree Regression model, we optimize hyperparameters such as 'criterion' (either 'mse' or 'friedman_mse') and 'splitter' ('best' or 'random') using GridSearchCV. The model is evaluated with 5-fold cross-validation to ensure robust results.
+Similarly, for the **Decision Tree Regression model**, we optimize hyperparameters such as **'criterion'** (either **'mse'** or **'friedman_mse'**) and **'splitter'** ('best' or 'random') using **GridSearchCV**. The model is evaluated with **5-fold cross-validation** to ensure robust results.
 
 Here are the results that we obtain:
 
@@ -115,19 +115,19 @@ Here are the results that we obtain:
 ### Linear Regression
 
 - **R-squared (R²) Score**: 0.75
-- **Description**: The Linear Regression model achieved an R² score of 0.75, indicating that approximately 75% of the variance in used car prices can be explained by the model. This demonstrates a moderate level of predictive accuracy.
+- **Description**: The **Linear Regression model** achieved an **R² score** of **0.75**, indicating that approximately **75%** of the variance in used car prices can be explained by the model. This demonstrates a moderate level of predictive accuracy.
 
 ### Lasso Regression
 
 - **R-squared (R²) Score**: 0.72
-- **Description**: The Lasso Regression model achieved an R² score of 0.72, which represents a good fit to the data. This indicates that the model explains approximately 72% of the variance in used car prices.
+- **Description**: The **Lasso Regression model** achieved an **R² score** of **0.72**, which represents a good fit to the data. This indicates that the model explains approximately **72%** of the variance in used car prices.
 
 ### Decision Tree Regression
 
 - **R-squared (R²) Score**: 0.83
-- **Description**: The Decision Tree Regression model outperformed other models with an R² score of 0.83, suggesting a strong ability to predict used car prices. This model captures approximately 83% of the variance in prices, indicating high predictive accuracy.
+- **Description**: The **Decision Tree Regression model** outperformed other models with an **R² score** of **0.83**, suggesting a strong ability to predict used car prices. This model captures approximately **83%** of the variance in prices, indicating high predictive accuracy.
 
-These results highlight the effectiveness of the Decision Tree Regression model in predicting used car prices. Further fine-tuning and optimization of models could potentially enhance predictive accuracy.
+These results highlight the effectiveness of the **Decision Tree Regression model** in predicting used car prices. Further fine-tuning and optimization of models could potentially enhance predictive accuracy.
 
 ## Deployment
 
