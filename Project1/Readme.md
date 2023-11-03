@@ -83,12 +83,9 @@ Exploratory data analysis uncovers insights by analyzing year-wise and odometer-
 Based on the graphs above, it is evident that there exist many outliers that need to be removed before training our model. 
 
 ## Model Building
-The model building phase is focused on creating a regression model for used car price prediction. Key components of this phase include:
+To choose the best regression model for predicting used car prices, we evaluate multiple algorithms, including Linear Regression, Lasso Regression, and Decision Tree Regression, using cross-validation. We employ the ShuffleSplit method with five splits and measure the R-squared (R^2) score for each model.
 
-Selecting suitable regression algorithms, such as Linear Regression, Lasso, and Decision Tree Regressor.
-Feature engineering to enhance model performance, including standardizing the 'year' and 'cylinders' features.
-Training the model using the preprocessed dataset.
-This section provides code and detailed insights into the model-building process, including the identification of the best-performing model.
+After evaluating the models, we find that the Decision Tree Regression model performs the best with an R^2 score of approximately 0.83. This indicates that the model can explain about 83% of the variance in used car prices, making it a suitable choice for our prediction task.
 
 
 
