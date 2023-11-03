@@ -62,7 +62,7 @@ The dataset used in this project consists of images of healthy tomato plants and
 <td>
   
 ### Tomato Spider Mites (Two-Spotted Spider Mite)
-![Tomato Spider Mites](URL-of-the-image)
+![Tomato Spider Mites](https://github.com/shahriar-math1364/data-science-/blob/main/Project4/Tomato%20classification%20pictures/Tomato_Spider_mites_Two_spotted_spider_mite/002835d1-c18e-4471-aa6e-8d8c29585e9b___Com.G_SpM_FL%208584.JPG)
   
 </td>
 </tr>
@@ -70,13 +70,13 @@ The dataset used in this project consists of images of healthy tomato plants and
 <td>
   
 ### Tomato Target Spot
-![Tomato Target Spot](URL-of-the-image)
+![Tomato Target Spot](https://github.com/shahriar-math1364/data-science-/blob/main/Project4/Tomato%20classification%20pictures/Tomato__Target_Spot/002213fb-b620-4593-b9ac-6a6cc119b100___Com.G_TgS_FL%208360.JPG)
   
 </td>
 <td>
   
 ### Tomato Yellow Leaf Curl Virus
-![Tomato Yellow Leaf Curl Virus](URL-of-the-image)
+![Tomato Yellow Leaf Curl Virus](https://github.com/shahriar-math1364/data-science-/blob/main/Project4/Tomato%20classification%20pictures/Tomato__Tomato_YellowLeaf__Curl_Virus/00139ae8-d881-4edb-925f-46584b0bd68c___YLCV_NREC%202944.JPG)
   
 </td>
 </tr>
@@ -84,13 +84,13 @@ The dataset used in this project consists of images of healthy tomato plants and
 <td>
   
 ### Tomato Mosaic Virus
-![Tomato Mosaic Virus](URL-of-the-image)
+![Tomato Mosaic Virus](https://github.com/shahriar-math1364/data-science-/blob/main/Project4/Tomato%20classification%20pictures/Tomato__Tomato_mosaic_virus/000ec6ea-9063-4c33-8abe-d58ca8a88878___PSU_CG%202169.JPG)
   
 </td>
 <td>
   
 ### Healthy Tomato
-![Healthy Tomato](URL-of-the-image)
+![Healthy Tomato](https://github.com/shahriar-math1364/data-science-/blob/main/Project4/Tomato%20classification%20pictures/Tomato_healthy/000146ff-92a4-4db6-90ad-8fce2ae4fddd___GH_HL%20Leaf%20259.1.JPG)
   
 </td>
 </tr>
