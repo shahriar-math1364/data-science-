@@ -87,7 +87,7 @@ An XGBoost model is trained and optimized using GridSearchCV. The best model is 
 
 
 ## Results
-- The results section discusses the model with the highest accuracy, the XGBoost model after hyperparameter optimization. The project showcases this model as the best-performing one, with an accuracy of approximately 97%.
+The results section discusses the model with the highest accuracy, the XGBoost model after hyperparameter optimization. The project showcases this model as the best-performing one, with an accuracy of approximately 92%.
 
 ![xgboost](https://github.com/shahriar-math1364/data-science-/blob/main/Project2/images/report-xgboost.png)
 
