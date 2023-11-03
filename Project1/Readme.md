@@ -34,10 +34,10 @@ Using the project is straightforward. Follow these steps:
 
 1. **Clone the Repository:** Start by cloning the project repository from GitHub to your local machine.
 
-2. **Install Dependencies:** After cloning, navigate to the project directory and use the requirements.txt file to install all the required dependencies, as mentioned in the Installation section.
+2. **Install Dependencies:** After cloning, navigate to the project directory and use the **requirements.txt** file to install all the required dependencies, as mentioned in the Installation section.
 
 
-3. **Run the Model:** Execute the Jupyter Notebook named "regression-project.ipynb" included in the repository. This notebook contains the code to build and train the regression model using the provided dataset.
+3. **Run the Model:** Execute the Jupyter Notebook named **"regression-project.ipynb"** included in the repository. This notebook contains the code to build and train the regression model using the provided dataset.
 
 
 
