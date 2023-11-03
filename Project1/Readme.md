@@ -45,14 +45,14 @@ Make use of the model for accurate used car price estimation.
 - Columns like `lat` and `long` were considered irrelevant for our regression model and thus removed.
 - Modifications were made to combine similar attributes, and new columns like `size-c` were introduced.
 - Rows with suspicious data, like cars priced less than 500 or manufactured before 2001, were removed.
-- Some columns underwent standardization processes using MinMaxScaler.
+- Some columns underwent **standardization** processes using **MinMaxScaler**.
 
 ### Outlier Removal
 
 Outliers can dramatically affect the predictions and conclusions drawn from data. Hence, a systematic approach was adopted to identify and handle them:
 
 - **Visualization Tools:** 
-  - Scatterplots and boxplots were primarily used to visually identify outliers based on attributes.
+  - **Scatterplots** and **boxplots** were primarily used to visually identify outliers based on attributes.
 
 - **Statistical Criteria:** 
   - **Price:** Any car priced below $500 was considered too low and potentially erroneous. On the higher end, cars priced above the 99th percentile were examined and removed if they were rare or luxury models not representative of the general dataset.
