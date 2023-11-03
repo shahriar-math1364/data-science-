@@ -39,6 +39,14 @@ Run the Jupyter Notebook or Python script to build and train the regression mode
 Input relevant data and obtain price predictions.
 Make use of the model for accurate used car price estimation.
 
+## Exploratory Data Analysis
+Exploratory data analysis uncovers insights by analyzing year-wise and odometer-wise price trends. Visualizations are used to discover data patterns and relationships between features and car prices.
+
+![year-wise trend](https://github.com/shahriar-math1364/data-science-/blob/main/Project1/images/year-wise-trend.png)
+![odometer reading vs price](https://github.com/shahriar-math1364/data-science-/blob/main/Project1/images/odometer-price.png)
+
+
+
 ## Data Preprocessing
 
 ### Data Cleaning
@@ -74,11 +82,7 @@ After the outlier removal process, the cleaned dataset was reviewed again using 
 - One-hot encoding was applied to categorical variables, producing a new, transformed dataset.
 
 
-## Exploratory Data Analysis
-Exploratory data analysis uncovers insights by analyzing year-wise and odometer-wise price trends. Visualizations are used to discover data patterns and relationships between features and car prices.
 
-![year-wise trend](https://github.com/shahriar-math1364/data-science-/blob/main/Project1/images/year-wise-trend.png)
-![odometer reading vs price](https://github.com/shahriar-math1364/data-science-/blob/main/Project1/images/odometer-price.png)
 
 Based on the graphs above, it is evident that there exist many outliers that need to be removed before training our model. 
 
