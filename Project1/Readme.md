@@ -112,7 +112,22 @@ Here are the results that we obtain:
 
 
 ## Results
-nnnnn
+### Linear Regression
+
+- **R-squared (R²) Score**: 0.75
+- **Description**: The Linear Regression model achieved an R² score of 0.75, indicating that approximately 75% of the variance in used car prices can be explained by the model. This demonstrates a moderate level of predictive accuracy.
+
+### Lasso Regression
+
+- **R-squared (R²) Score**: 0.72
+- **Description**: The Lasso Regression model achieved an R² score of 0.72, which represents a good fit to the data. This indicates that the model explains approximately 72% of the variance in used car prices.
+
+### Decision Tree Regression
+
+- **R-squared (R²) Score**: 0.83
+- **Description**: The Decision Tree Regression model outperformed other models with an R² score of 0.83, suggesting a strong ability to predict used car prices. This model captures approximately 83% of the variance in prices, indicating high predictive accuracy.
+
+These results highlight the effectiveness of the Decision Tree Regression model in predicting used car prices. Further fine-tuning and optimization of models could potentially enhance predictive accuracy.
 
 ## Deployment
 
