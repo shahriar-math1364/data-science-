@@ -90,9 +90,19 @@ After evaluating the models, we find that the Decision Tree Regression model per
 
 
 ## GridSearchCV for Hyperparameter Tuning:
-To optimize the Decision Tree Regressor model, GridSearchCV is employed. This technique systematically explores various hyperparameters to determine the best configuration.
-Hyperparameters such as 'criterion' (either 'mse' or 'friedman_mse') and 'splitter' ('best' or 'random') are included in the search space.
-The model is evaluated using a 5-fold ShuffleSplit cross-validation strategy to ensure robust results.
+To optimize the performance of our regression models, we employ GridSearchCV, a powerful technique that systematically explores various hyperparameters to determine the best configuration. This approach ensures that our models are fine-tuned for the best possible predictive accuracy.
+
+#### Linear Regression
+
+For the Linear Regression model, we search for the best hyperparameters by exploring the 'fit_intercept' parameter with values 'True' and 'False.' GridSearchCV evaluates different combinations using a 5-fold ShuffleSplit cross-validation strategy.
+
+#### Lasso Regression
+
+In the case of Lasso Regression, we tune hyperparameters like 'alpha' (with options 1 and 2) and 'selection' ('random' or 'cyclic'). GridSearchCV helps us find the optimal hyperparameters to improve model performance.
+
+#### Decision Tree Regression
+
+Similarly, for the Decision Tree Regression model, we optimize hyperparameters such as 'criterion' (either 'mse' or 'friedman_mse') and 'splitter' ('best' or 'random') using GridSearchCV. The model is evaluated with 5-fold cross-validation to ensure robust results.
 
 Here are the results that we obtain:
 
