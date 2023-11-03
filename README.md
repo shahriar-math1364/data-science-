@@ -33,7 +33,7 @@ Highly skilled mathematician with expertise in coding, machine learning, probabi
   - Emphasized practical application of Python in data science and machine learning.
   - Guided students in computational mathematics using Python.
 
-## Projects
+## Machine Learning Projects
 
 ### Used Car Price Prediction
 
