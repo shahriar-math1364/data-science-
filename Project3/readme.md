@@ -17,12 +17,10 @@ Finally, the best-performing model (in this case, an SVM model) is serialized us
 - [Data Preprocessing](#data-preprocessing)
 - [Feature Engineering](#feature-engineering)
 - [Model Building](#model-building)
-- [Evaluation](#evaluation)
 - [Results](#results)
 - [Deployment](#deployment) 
 - [Future Work](#future-work)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Data
 
