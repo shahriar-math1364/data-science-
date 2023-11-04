@@ -98,7 +98,7 @@ This section provides an in-depth overview of the model training process for cel
 - The resized images are then flattened into a single 1D array of 4096 float values.
 - This process prepares the raw image data for feature extraction.
 
-## Wavelet Transform Features
+### Wavelet Transform Features
 
 To enable the machine learning model to effectively learn distinctive patterns and features from the singer's facial characteristics and expressions, we employ a process that involves wavelet transform features. Here's how this process works:
 
