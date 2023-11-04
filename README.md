@@ -124,19 +124,4 @@ Outlined below are the phases of this project:
 
 
 
-## Talks & Lectures
 
-
-- [Data Science YouTube](https://www.youtube.com/channel/UCa9gErQ9AE5jT2DZLjXBIdA)
-
-## Publications
-
-
-- [Data Science Blog](https://medium.com/@shawhin)
-
-- [LinkedIn](https://www.linkedin.com/in/shahriar-mirzadeh-4a90b861/)
-
-
-## License
-
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
