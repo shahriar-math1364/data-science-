@@ -4,9 +4,15 @@
 
 ## Project Overview
 
-Tomatoes are one of the most cultivated crops around the world, contributing significantly to global food production. However, like all crops, tomatoes are susceptible to various diseases that can impact their growth and yield. Identifying these diseases at an early stage is crucial for taking prompt preventive measures and ensuring the healthy development of tomato plants.
+In the realm of agriculture, tomatoes are a cornerstone crop, integral to the food supply chain worldwide. Their cultivation, however, is often compromised by a spectrum of plant diseases that can adversely affect both yield and quality. Timely and accurate identification of these diseases is critical to take preventive actions that ensure the robust growth and health of the crops.
 
-This project leverages the power of machine learning, specifically Convolutional Neural Networks (CNNs), to tackle the challenge of tomato disease classification. By analyzing images of tomato leaves, the model aims to accurately classify different types of tomato diseases. This classification process allows farmers and agricultural professionals to quickly detect and diagnose diseases in their tomato plants, ultimately leading to more effective disease management strategies.
+Our project harnesses the capabilities of Convolutional Neural Networks (CNNs), a powerful branch of machine learning algorithms, to address the challenge of classifying tomato plant diseases. At the heart of our solution is a comprehensive dataset acquired from Kaggle, which contains high-resolution images representing a range of tomato leaf conditions.
+
+The dataset, contributed by Kaustubh on Kaggle, encompasses multiple categories of diseases including Bacterial Spot, Early Blight, Late Blight, Leaf Mold, Septoria Leaf Spot, Two-spotted Spider Mite, Target Spot, Tomato Yellow Leaf Curl Virus, Tomato Mosaic Virus, as well as healthy leaf specimens. With this data, our CNN model is trained to recognize and classify these disease signatures with precision, enabling rapid and reliable disease diagnosis.
+
+This initiative aims to provide agricultural professionals and farmers with a cutting-edge tool to detect plant diseases early on. By integrating our model with existing agricultural management systems, we aspire to enhance decision-making processes and contribute to more sustainable and productive farming practices.
+
+The use of the Kaggle dataset not only empowers our model with a wide array of training samples but also promotes the replication and iterative improvement of our approach by the broader scientific community. Detailed information and access to the dataset can be found here: [Tomato Leaf Disease Dataset by Kaustubh on Kaggle](https://www.kaggle.com/datasets/kaustubhb999/tomatoleaf/data).
 
 ### Key Objectives
 
