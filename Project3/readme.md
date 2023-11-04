@@ -25,7 +25,7 @@ Finally, the best-performing model (in this case, an SVM model) is serialized us
 - [Contributing](#contributing)
 - [License](#license)
 
-##data
+## data
 
 The dataset for this project consists of images of the mentioned singers: Katy Perry, Rihanna, Beyoncé, and Lady Gaga. These images were obtained using the FatCun tool, which facilitated the downloading of images from various online sources and search engine results.
 
