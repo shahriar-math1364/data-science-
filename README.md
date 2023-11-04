@@ -2,7 +2,7 @@
 
 - **Email:** mirzadsr@ucmail.uc.edu  
 - **Phone:** (781) 296-5207
-- **LinkedIn:** [linkedin.com/in/yourusername](linkedin.com/in/yourusername)  
+- **LinkedIn:** [https://www.linkedin.com/in/shahriar-mirzadeh-4a90b861/](https://www.linkedin.com/in/shahriar-mirzadeh-4a90b861/)  
 - **GitHub:** [https://github.com/shahriar-math1364/data-science-](https://github.com/shahriar-math1364/data-science-) 
 
 ## 📌 Summary:
