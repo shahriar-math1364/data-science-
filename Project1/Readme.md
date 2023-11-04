@@ -29,12 +29,11 @@ Our objective is to synthesize a tool of significant value for buyers and seller
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Model Building](#model-building)
 - [GridSearchCV for Hyperparameter Tuning](#gridsearchcv-for-hyperparameter-tuning) 
-- [Evaluation](#evaluation)
 - [Results](#results)
 - [Deployment](#deployment)
 - [Future Work](#future-work)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 
 ## Data
