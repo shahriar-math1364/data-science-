@@ -98,11 +98,23 @@ This section provides an in-depth overview of the model training process for cel
 - The resized images are then flattened into a single 1D array of 4096 float values.
 - This process prepares the raw image data for feature extraction.
 
-#### Wavelet Transform Features
-- The model training process leverages wavelet transform features.
-- The `w2d` function is applied to each cropped image.
-- The Haar wavelet is chosen, and the transform is performed at a level of 5.
-- The resulting wavelet-transformed images are resized to 32x32 pixels and flattened into 1D arrays of 1024 float values.
+## Wavelet Transform Features
+
+To enable the machine learning model to effectively learn distinctive patterns and features from the singer's facial characteristics and expressions, we employ a process that involves wavelet transform features. Here's how this process works:
+
+1. **Image Preprocessing**: Before feeding images into the model, we preprocess each cropped image using the `w2d` function. This function applies a series of operations to enhance important image details while reducing noise.
+
+2. **Grayscale Conversion and Normalization**: Initially, the input color image is converted to grayscale. Subsequently, the image is converted to a floating-point representation and normalized to the range [0, 1]. This ensures consistent scaling across all images.
+
+3. **Wavelet Transform**: The core of the preprocessing involves the wavelet transform, implemented using the PyWavelets library (`pywt`). This transform decomposes the grayscale image into a set of coefficients at various scales and orientations.
+
+4. **Coefficients Manipulation**: To emphasize essential image features, the `coeffs_H` variable is derived from the coefficients obtained in the previous step. Notably, all coefficients at the lowest scale, which correspond to approximation coefficients, are set to zero. This selective manipulation preserves the image's critical details and edges.
+
+5. **Reconstruction**: After processing the coefficients, the inverse wavelet transform (`pywt.waverec2`) is applied to reconstruct the image. This reconstructed image now contains enhanced details and edges, making it more suitable for analysis.
+
+6. **Scaling and Flattening**: The reconstructed image is scaled back to the 8-bit unsigned integer format (`np.uint8`) and multiplied by 255 to restore its pixel value range. Furthermore, these processed images are resized uniformly to a standard size of 32x32 pixels. Finally, they are flattened into 1D arrays, each consisting of 1024 float values.
+
+These wavelet-transformed and flattened images serve as the feature vectors for our machine learning model. They encapsulate vital information about the singer's facial characteristics, which the model leverages to classify singers effectively.
 
 ### Data Concatenation
 
