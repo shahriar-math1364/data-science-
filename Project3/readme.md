@@ -156,7 +156,7 @@ The project is deployed on Amazon Web Services (AWS), making use of its robust, 
 ### Deployment Link
 
 
-The deployed application is accessible at the following URL: ![Live Application](http://3.12.160.18:5000)
+The deployed application is accessible at the following URL: [Live Application](http://3.12.160.18:5000)
 
 ### Architecture Overview
 
