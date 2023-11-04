@@ -74,7 +74,7 @@ This repository contains a data-driven project that analyzes and predicts stress
 
 
 
-### Women Celebrity Image Classifier
+### Women Celebrity Image Classifier using SVM
 
 An image classification project that identifies and classifies images of Katy Perry, Rihanna, Lady Gaga, and Beyoncé using non-deep learning methods.
 
@@ -97,7 +97,7 @@ An image classification project that identifies and classifies images of Katy Pe
 - **Deployment Link**: [Click here](http://3.12.160.18:5000)
 
 
-### Tomato Image Classification Project
+### Tomato Image Classification Project using CNN
 
 #### Overview
 
