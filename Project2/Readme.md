@@ -119,5 +119,4 @@ The primary file for the Flask application, `app.py`, is available on the main p
 ## Contributing
 - Contributions to this project are welcome. If you have ideas for improvements or new features, please feel free to open issues or submit pull requests.
 
-## License
-- This project is under the [MIT License](LICENSE).
+
