@@ -23,9 +23,20 @@ In pursuit of a comprehensive analysis, our methodology draws upon established r
 - [License](#license)
 
 ## Data
-- The dataset used for this project is available [here](https://colab.research.google.com/drive/1wG7cYUX3TBkP-RDljvOlcAX18QhYWrOc).
-- It includes information about individuals, their occupations, physical activity levels, sleep patterns, and more.
-- The data is used for training and evaluating the stress prediction model. Here is an overview of the dataset:
+
+The dataset pivotal to this project is housed within a file named `sleep.csv`. This file contains a wide array of variables that are instrumental in assessing and predicting stress levels, including:
+
+- Demographic details of the individuals studied
+- Occupational categories and associated stress levels
+- Physical activity metrics
+- Detailed sleep pattern records
+
+The `sleep.csv` file is integral to the machine learning pipeline of our project. It is utilized to train the model and evaluate its efficacy in predicting stress. The dataset is meticulously curated to reflect the nuanced relationship between lifestyle factors and stress outcomes. For a deep dive into the data or to perform independent analyses, access the dataset via the link below:
+
+- [Access `sleep.csv` Dataset](https://colab.research.google.com/drive/1wG7cYUX3TBkP-RDljvOlcAX18QhYWrOc)
+
+The insights gleaned from this dataset are crucial for the predictive model's capacity to identify stress indicators and may serve as a catalyst for subsequent research and preventive strategies in stress management.
+
 
 ![data](https://github.com/shahriar-math1364/data-science-/blob/main/Project2/images/Screenshot.png)
 
