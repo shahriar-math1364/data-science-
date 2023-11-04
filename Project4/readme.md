@@ -9,7 +9,6 @@ Tomatoes are one of the most cultivated crops around the world. Identifying dise
 ## Table of Contents
 - [Data](#data)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Data Preprocessing](#data-preprocessing)
 - [Model Architecture](#model-architecture)
 - [Training](#training)
@@ -97,11 +96,31 @@ The dataset used in this project consists of images of healthy tomato plants and
 </table>The dataset comprises a total of 14733 images, which are divided into training, validation, and testing sets. More detailed information about the dataset, including the distribution of images among different classes and the source of the dataset, can be found in the data description section of the project repository.
 
 ## Installation
-To run this project and the CNN-based tomato disease classification model, you'll need to install the required Python libraries and dependencies. You can do this using pip:
+## Installation
 
-```bash
-pip install -r requirements.txt
-```
+To run this project, which includes a Convolutional Neural Network (CNN)-based tomato disease classification model, you'll need to install the necessary Python libraries and dependencies. You can easily do this using `pip`. Follow these steps:
+
+1. **Clone the Repository**: 
+
+2. **Navigate to the Project Directory**: 
+
+3. **Install Dependencies**: Next, use the provided `requirements.txt` file to install all the required Python libraries and dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+    This command will automatically install the specified packages, ensuring that you have all the necessary tools to run the project.
+
+4. **Open the Jupyter Notebook**: Launch your Jupyter Notebook environment and open the "tomato.ipynb" notebook included in the repository. This notebook contains the code for the tomato disease classification model, as well as detailed explanations and step-by-step instructions.
+
+    ```bash
+    jupyter notebook tomato.ipynb
+    ```
+
+5. **Execute the Notebook**: Inside the Jupyter Notebook, you'll find comprehensive instructions and code cells. Follow these instructions to explore the project, preprocess images, train the CNN model, and perform tomato disease classification.
+
+Feel free to reach out if you have any questions or encounter any issues while using the project. Happy classifying!
 
 ## Data Preprocessing
 
