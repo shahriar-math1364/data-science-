@@ -2,17 +2,20 @@
 
 ![Shakira](https://github.com/shahriar-math1364/data-science-/blob/main/Project1/images/usedcar.jpg)
 
+
 ## Project Overview
 
-The world of buying and selling used cars is not only vast but also intricately varied. A host of determinants—such as make and model, year of manufacture, mileage, vehicle condition, and the sway of regional market trends—all converge to shape the fair market value of a used car.
+The world of buying and selling used cars is not only vast but also intricately varied. Factors such as make and model, year of manufacture, mileage, vehicle condition, and regional market trends are all pivotal in shaping the fair market value of a used car.
 
-This project is anchored in data science and machine learning to architect a predictive model with the precision to gauge used car prices. The dataset, sourced from Kaggle and provided by Austin Reese, serves as the bedrock of our analysis. 
+This project employs data science and machine learning techniques to construct a predictive model capable of accurately estimating used car prices. The dataset underpinning our analysis was originally sourced from Kaggle and provided by Austin Reese. For ease of access and to facilitate reproducibility of our analysis, the dataset has been made available directly via Google Drive.
 
-### Dataset Reference
+Our aim is to create a valuable resource for buyers and sellers in the used car market. Accurate car valuations are crucial for sellers to set fair prices and for buyers to make cost-effective purchases, ensuring informed decision-making in the marketplace.
 
-The data used for this project was obtained from the following Kaggle dataset:
+The dataset can be accessed through the following links:
 
-- Reese, A. (2023). Craigslist Cars+Trucks Data [Data set]. Kaggle. Available at: [https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data)
+- [Craigslist Cars+Trucks Data - Kaggle](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data)
+- [Craigslist Cars+Trucks Data (CSV File) - Google Drive](https://drive.google.com/file/d/1xaEgaIWAkj5ETX3I4FAL6gMO1BS1_N3N/view?usp=drive_link)
+
 
 
 
