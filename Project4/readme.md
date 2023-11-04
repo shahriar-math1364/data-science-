@@ -95,7 +95,7 @@ The dataset used in this project consists of images of healthy tomato plants and
 </tr>
 </table>The dataset comprises a total of 14733 images, which are divided into training, validation, and testing sets. More detailed information about the dataset, including the distribution of images among different classes and the source of the dataset, can be found in the data description section of the project repository.
 
-## Installation
+
 ## Installation
 
 To run this project, which includes a Convolutional Neural Network (CNN)-based tomato disease classification model, you'll need to install the necessary Python libraries and dependencies. You can easily do this using `pip`. Follow these steps:
