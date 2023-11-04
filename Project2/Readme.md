@@ -3,8 +3,12 @@
 ![Stress](https://github.com/shahriar-math1364/data-science-/blob/main/Project2/stress.jpg)
 
 ## Project Overview
-This classification project aims to identify the leading predictors of stress in individuals. Stress is a common issue in today's fast-paced world, and understanding the factors that contribute to it can help individuals and organizations mitigate its effects. The project's primary goal is to build a predictive model that can classify whether an individual is likely to experience stress based on various features and variables.
 
+In the modern, high-speed rhythm of life, stress emerges as a prevalent challenge, affecting personal well-being and organizational efficiency. This classification project delves into identifying key predictors that contribute to stress in individuals, with an overarching aim to illuminate pathways for alleviation and management. The capstone of this endeavor is the development of a predictive model adept at classifying the likelihood of stress manifestation based on a constellation of factors and indicators.
+
+In pursuit of a comprehensive analysis, our methodology draws upon established research and existing explorations in the domain. A noteworthy point of reference is the Kaggle notebook by Wilmer Arlt Strömberg, which provides a nuanced feature analysis pertaining to sleep disorders—an aspect intimately tied to stress:
+
+- Strömberg, W.A. (2023). Sleep Disorder Feature Analysis [Kaggle Notebook]. Available at: [https://www.kaggle.com/code/wilmerarltstrmberg/sleep-disorder-feature-analysis](https://www.kaggle.com/code/wilmerarltstrmberg/sleep-disorder-feature-analysis)
 ## Table of Contents
 - [Data](#data)
 - [Installation](#installation)

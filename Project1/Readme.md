@@ -16,7 +16,7 @@ The data used for this project was obtained from the following Kaggle dataset:
 
 
 
-## Objective
+### Objective
 
 Our objective is to synthesize a tool of significant value for buyers and sellers within the used car bazaar. For the seller who seeks to negotiate a fair price, or the buyer in pursuit of a cost-effective purchase, an accurate valuation of a car's worth is indispensable for informed transactional decisions.
 
