@@ -36,7 +36,7 @@ Highly skilled mathematician with expertise in coding, machine learning, probabi
 ## Skills
 - Programming: Python (pandas, scikit-learn, TensorFlow, Keras), R, SQL.
 - Data Analysis: Regression, Classification, Clustering, Anomaly Detection.
-- Tools: Jupyter Notebook, Tableau, SQL Server, Git.
+- Tools: Jupyter Notebook, Power BI, Tableau, SQL Server, Git.
 - Mathematics: Probability, Statistics, Linear Algebra.
 - Deep Learning: CNN, RNN, Transformers.
 
