@@ -16,11 +16,10 @@ In pursuit of a comprehensive analysis, our methodology draws upon established r
 - [Data Preprocessing](#data-preprocessing)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Model Building](#model-building)
-- [Evaluation](#evaluation)
 - [Results](#results)
 - [Future Work](#future-work)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Data
 
