@@ -25,8 +25,20 @@ Finally, the best-performing model (in this case, an SVM model) is serialized us
 - [Contributing](#contributing)
 - [License](#license)
 
-## Data
-The dataset used in this project contains information about women singers, including their biographical details, vocal characteristics, and music genres. It includes features such as age, vocal range, style, and more. The dataset consists of [number] rows and [number] columns. A detailed description of the features can be found in the data dictionary within the project repository.
+The dataset for this project consists of images of the mentioned singers: Katy Perry, Rihanna, Beyoncé, and Lady Gaga. These images were obtained using the FatCun tool, which facilitated the downloading of images from various online sources and search engine results.
+
+### Preprocessing Steps
+
+Before the model training process, the images underwent several preprocessing steps:
+
+1. **Cropping:** The images were cropped to isolate the facial features of the singers. This step helped focus the model's analysis on the key visual characteristics necessary for distinguishing between the artists.
+
+2. **Grayscale Conversion:** To simplify and standardize the data, the images were converted to grayscale, reducing the dimensionality of the dataset.
+
+3. **Wavelet Transformation:** A wavelet transformation was applied to the images to extract relevant features and enhance certain visual characteristics. This transformation helps in capturing important patterns in the images.
+
+These preprocessing steps were crucial to prepare the data for model training, ensuring that the model receives relevant and standardized input. The curated dataset of singer images is now ready to be used for training and developing a machine learning model capable of accurately classifying the four artists.
+
 
 ## Installation
 The project is based on Python and requires several libraries, including:
