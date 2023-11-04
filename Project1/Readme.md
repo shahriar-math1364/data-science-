@@ -4,9 +4,21 @@
 
 ## Project Overview
 
-The world of buying and selling used cars is a complex and dynamic marketplace. When it comes to determining the fair market value of a used car, a multitude of factors comes into play. The make and model, the year of manufacture, the mileage on the odometer, the vehicle's condition, and even regional market trends all play vital roles in deciding the price of a used car.
+The world of buying and selling used cars is not only vast but also intricately varied. A host of determinants—such as make and model, year of manufacture, mileage, vehicle condition, and the sway of regional market trends—all converge to shape the fair market value of a used car.
 
-This project focuses on leveraging data science and machine learning techniques to develop a predictive model that can accurately estimate the price of used cars. By harnessing the power of data, we aim to provide a valuable tool for both buyers and sellers in the used car market. Whether you're looking to sell your vehicle or purchase a pre-owned car, having a reliable estimate of its worth is essential for making informed decisions.
+This project is anchored in data science and machine learning to architect a predictive model with the precision to gauge used car prices. The dataset, sourced from Kaggle and provided by Austin Reese, serves as the bedrock of our analysis. 
+
+### Dataset Reference
+
+The data used for this project was obtained from the following Kaggle dataset:
+
+- Reese, A. (2023). Craigslist Cars+Trucks Data [Data set]. Kaggle. Available at: [https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data)
+
+
+
+## Objective
+
+Our objective is to synthesize a tool of significant value for buyers and sellers within the used car bazaar. For the seller who seeks to negotiate a fair price, or the buyer in pursuit of a cost-effective purchase, an accurate valuation of a car's worth is indispensable for informed transactional decisions.
 
 
 
