@@ -13,7 +13,6 @@ Finally, the best-performing model (in this case, an SVM model) is serialized us
 
 ## Table of Contents
 - [Data](#data)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Data Preprocessing](#data-preprocessing)
 - [Feature Engineering](#feature-engineering)
@@ -42,20 +41,23 @@ Before the model training process, the images underwent several preprocessing st
 These preprocessing steps were crucial to prepare the data for model training, ensuring that the model receives relevant and standardized input. The curated dataset of singer images is now ready to be used for training and developing a machine learning model capable of accurately classifying the four artists.
 
 
-## Installation
-The project is based on Python and requires several libraries, including:
-- `opencv-python`
-- `numpy`
-- `matplotlib`
-- `pywt`
-- `scikit-learn`
 
-You can install these packages using `pip`:
+## Usage
 
+Using the project is straightforward. Follow these steps:
 
-```bash
-pip install opencv-python numpy matplotlib pywt scikit-learn
-```
+1. **Clone the Repository**: Start by cloning the project repository from GitHub to your local machine.
+
+2. **Install Dependencies**: After cloning, use the provided requirements.txt file to install all the required dependencies, as mentioned in the Installation section.
+
+   ```bash
+   pip install -r requirements.txt
+
+3. **Open the Jupyter Notebook**: Launch your Jupyter Notebook environment and open the `women_celebrity.ipynb` notebook included in the repository.
+
+4. **Execute the Notebook**: Inside the Jupyter Notebook, you'll find step-by-step instructions and code cells. Follow these instructions to explore the project, preprocess images, train the machine learning model, and perform singer classification.
+
+Feel free to reach out if you have any questions or encounter any issues while using the project. Happy classifying!
 
 
 ## Data Preprocessing
