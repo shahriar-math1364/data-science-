@@ -33,6 +33,13 @@ Highly skilled mathematician with expertise in coding, machine learning, probabi
   - Emphasized practical application of Python in data science and machine learning.
   - Guided students in computational mathematics using Python.
 
+## Skills
+- Programming: Python (pandas, scikit-learn, TensorFlow, Keras), R, SQL.
+- Data Analysis: Regression, Classification, Clustering, Anomaly Detection.
+- Tools: Jupyter Notebook, Tableau, SQL Server, Git.
+- Mathematics: Probability, Statistics, Linear Algebra.
+- Deep Learning: CNN, RNN, Transformers.
+
 ## Machine Learning Projects
 
 ### Used Car Price Prediction
@@ -120,6 +127,13 @@ Outlined below are the phases of this project:
 
 - **Project Link**: [Click here](https://github.com/shahriar-math1364/data-science-/tree/main/Project4)
 - **Deployment Link**: [Click here](http://3.12.160.18:8000)
+
+
+## Certifications
+- AI for Medical Diagnosis, Coursera, Issued June 2023 - [Certificate](https://www.coursera.org/account/accomplishments/verify/M8KPHRP2X49R)
+- Python for Data Science, AI & Development, Coursera, Issued December 2022 - [Certificate](https://www.coursera.org/account/accomplishments/certificate/9KTPV6X78R4E)
+- Databases and SQL for Data Science with Python, Coursera, Issued December 2022 - [Certificate](https://www.coursera.org/account/accomplishments/certificate/AUSZGZXG8KZ2)
+- Machine Learning with Python, Coursera, Issued December 2022 - [Certificate](https://www.coursera.org/account/accomplishments/certificate/PKSDBTXUA33N)
 
 
 
