@@ -8,6 +8,15 @@
 ## 📌 Summary:
 Highly skilled mathematician with expertise in coding, machine learning, probability, statistics, and linear algebra. Proven experience in leveraging deep mathematical knowledge to tackle machine learning challenges. Adapted traditional mathematical principles to modern machine learning scenarios. Eager to bring analytical rigor to data-driven decision-making roles.
 
+## Skills
+- Programming: Python (pandas, scikit-learn, TensorFlow, Keras), R, SQL.
+- Data Analysis: Regression, Classification, Clustering, Anomaly Detection.
+- Tools: Jupyter Notebook, Power BI, Tableau, SQL Server, Git.
+- Mathematics: Probability, Statistics, Linear Algebra.
+- Deep Learning: CNN, RNN, Transformers.
+
+
+
 ## 🎓 Education:
 **Ph.D. in Mathematics,** Brandeis University, 2018  
 - *Thesis:* Dimension estimates for the set of points with non-dense orbit in homogeneous spaces  
@@ -33,12 +42,6 @@ Highly skilled mathematician with expertise in coding, machine learning, probabi
   - Emphasized practical application of Python in data science and machine learning.
   - Guided students in computational mathematics using Python.
 
-## Skills
-- Programming: Python (pandas, scikit-learn, TensorFlow, Keras), R, SQL.
-- Data Analysis: Regression, Classification, Clustering, Anomaly Detection.
-- Tools: Jupyter Notebook, Power BI, Tableau, SQL Server, Git.
-- Mathematics: Probability, Statistics, Linear Algebra.
-- Deep Learning: CNN, RNN, Transformers.
 
 ## Machine Learning Projects
 
