@@ -96,7 +96,7 @@ A logistic regression model is trained and evaluated, attaining an accuracy of a
 
 ### XGBoost Model with Hyperparameter Tuning
 
-An XGBoost model is trained and optimized using GridSearchCV. The best model is selected based on hyperparameter tuning, achieving an impressive accuracy of about 97%. A detailed classification report and a heatmap of the confusion matrix are provided for model evaluation.
+An XGBoost model is trained and optimized using GridSearchCV. The best model is selected based on hyperparameter tuning, achieving an impressive accuracy of about 92%. A detailed classification report and a heatmap of the confusion matrix are provided for model evaluation.
 
 
 
