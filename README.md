@@ -9,11 +9,11 @@
 Highly skilled mathematician with expertise in coding, machine learning, probability, statistics, and linear algebra. Proven experience in leveraging deep mathematical knowledge to tackle machine learning challenges. Adapted traditional mathematical principles to modern machine learning scenarios. Eager to bring analytical rigor to data-driven decision-making roles.
 
 ## Skills
-- Programming: Python (pandas, scikit-learn, TensorFlow, Keras), R, SQL.
+- Programming: Python (pandas, scikit-learn), R, SQL.
 - Data Analysis: Regression, Classification, Clustering, Anomaly Detection.
 - Tools: Jupyter Notebook, Power BI, Tableau, SQL Server, Git.
 - Mathematics: Probability, Statistics, Linear Algebra.
-- Deep Learning: CNN, RNN, Transformers.
+- Deep Learning: TensorFlow, Keras.
 
 
 
