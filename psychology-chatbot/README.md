@@ -4,13 +4,16 @@
 📂 **Part of Main GitHub Repo:** [Click Here](https://github.com/shahriar-math1364/data-science-)  
 
 ## **🧠 Overview**  
-This **Psychology Chatbot** is designed to answer questions related to **happiness, personal growth, depression, social skills, motivation, emotional intelligence, and mental well-being**.  
+This **Psychology Chatbot** is an AI-powered assistant designed to answer questions related to **happiness, personal growth, depression, social skills, motivation, emotional intelligence, and mental well-being**.  
 
-Unlike typical AI chatbots, it **retrieves real knowledge from psychology textbooks** using **Retrieval-Augmented Generation (RAG)** and provides **fact-based responses** rather than just generating generic answers.  
+Unlike generic AI chatbots, this system combines **Retrieval-Augmented Generation (RAG) with Generative AI** to ensure that responses are **fact-based and contextually relevant**. Instead of simply generating free-form responses, the chatbot **retrieves information from psychology textbooks and scientific literature** before leveraging **Generative AI** to formulate an answer.  
+
+It serves as an **educational tool** for students, educators, and mental health enthusiasts, offering **clear, research-backed responses** to psychology-related queries.  
 
 ---
 
 ## **🚀 Features**
+✅ **Integrates Generative AI** with **retrieved knowledge** for enhanced response accuracy.  
 ✅ **Answers psychology-related questions** using real textbook references.  
 ✅ **Retrieval-Augmented Generation (RAG):** Ensures high-quality responses.  
 ✅ **NLP-powered understanding** of user queries.  
@@ -20,19 +23,20 @@ Unlike typical AI chatbots, it **retrieves real knowledge from psychology textbo
 ---
 
 ## **💡 How It Works**
-1️⃣ **User Asks a Question** (e.g., *"How can I improve my social skills?"*).  
+1️⃣ **User Asks a Question** (e.g., *"How can I be happier in life?"*).  
 2️⃣ **ChromaDB Retrieves Relevant Information** from psychology textbooks.  
-3️⃣ **LangChain Structures the Response** based on the retrieved text.  
-4️⃣ **AI Chatbot Delivers a Clear Answer.**  
+3️⃣ **Generative AI (LangChain + OpenAI API) Structures the Response** based on the retrieved text.  
+4️⃣ **The Chatbot Delivers a Contextually Accurate Answer.**  
 
-Example Response:  
-*"Social skills can be improved through active listening, maintaining eye contact, and practicing empathy. Studies suggest that role-playing and cognitive behavioral techniques enhance interpersonal communication."*  
+### **Example Response**  
+> *"Happiness is influenced by various factors, including gratitude, social connections, mindfulness, and purpose. Research suggests that practicing gratitude regularly, fostering strong relationships, engaging in meaningful activities, and maintaining a balanced lifestyle contribute to long-term happiness."*  
 
 ---
 
 ## **📊 Tech Stack**
 - **Programming Language:** Python  
 - **Machine Learning Frameworks:** LangChain, OpenAI API  
+- **Generative AI Techniques:** Retrieval-Augmented Generation (RAG)  
 - **Database:** ChromaDB (Vector Search for Psychology Concepts)  
 - **Web Framework:** FastAPI  
 - **Deployment:** Hugging Face Spaces  
@@ -46,4 +50,3 @@ To run the chatbot locally, follow these steps:
 ```bash
 git clone https://github.com/shahriar-math1364/data-science-.git
 cd data-science-/psychology-chatbot
-
