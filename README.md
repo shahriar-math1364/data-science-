@@ -24,25 +24,34 @@ I’m a **mathematician, data scientist, and machine learning enthusiast** with 
 ---
 
 ## **🚀 Featured Projects**
-### 📌 [1. Psychology Textbook RAG Chatbot](https://github.com/shahriar-math1364/data-science-/tree/main/Psychology_Chatbot)
+### 📌 [1. Psychology Textbook RAG Chatbot](https://huggingface.co/spaces/djshahriar2345/psychology_chatbot)
 🔹 Built a **Retrieval-Augmented Generation (RAG)** chatbot using **LangChain & ChromaDB**  
 🔹 Designed to provide instant answers from psychology textbooks  
-🔹 Deployed on **Hugging Face Spaces** for user interaction  
+🔹 **Deployed Here:** [Live Demo](https://huggingface.co/spaces/djshahriar2345/psychology_chatbot)  
 
-### 📌 [2. Used Car Price Prediction](https://github.com/shahriar-math1364/data-science-/tree/main/Used_Car_Price_Prediction)
+### 📌 [2. Used Car Price Prediction](https://github.com/shahriar-math1364/data-science-/tree/main/Project1)
 🔹 Developed a machine learning model to predict car prices based on real-world datasets  
 🔹 Used **Decision Trees, Random Forest, and Gradient Boosting**  
 🔹 Optimized model using **feature engineering and hyperparameter tuning**  
+🔹 **Deployed Here:** [Live Demo](http://13.58.23.77:5000/)  
 
-### 📌 [3. Sleep-Stress Classification](https://github.com/shahriar-math1364/data-science-/tree/main/Sleep_Stress_Classification)
+### 📌 [3. Sleep-Stress Classification](https://github.com/shahriar-math1364/data-science-/tree/main/Project2)
 🔹 Classified stress levels using **XGBoost and Support Vector Machines**  
 🔹 Applied **feature engineering and hyperparameter tuning**  
 🔹 Designed to offer insights into **health monitoring applications**  
+🔹 **Deployed Here:** [Live Demo](http://13.58.23.77:2000/)  
 
-### 📌 [4. Tomato Disease Classification](https://github.com/shahriar-math1364/data-science-/tree/main/Tomato_Disease_Classification)
+### 📌 [4. Women Celebrity Image Classifier](https://github.com/shahriar-math1364/data-science-/tree/main/Project3)
+🔹 Built a **computer vision model** using **OpenCV, SVM, and Random Forest**  
+🔹 Applied **Wavelet Transform** for feature extraction from images  
+🔹 Designed to classify images of **Katy Perry, Rihanna, Lady Gaga, and Beyoncé**  
+🔹 **Deployed Here:** [Live Demo](http://3.12.160.18:5000/)  
+
+### 📌 [5. Tomato Disease Classification](https://github.com/shahriar-math1364/data-science-/tree/main/Project4)
 🔹 Built a **Convolutional Neural Network (CNN)** to classify tomato diseases  
 🔹 Implemented **data augmentation techniques** to improve generalization  
 🔹 Useful for **precision agriculture and plant disease detection**  
+🔹 **Deployed Here:** [Live Demo](http://3.12.160.18:8000/)  
 
 ---
 
