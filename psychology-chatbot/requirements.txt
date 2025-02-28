@@ -1,0 +1,19 @@
+huggingface_hub==0.25.2
+transformers
+accelerate
+einops
+xformers
+bitsandbytes
+sentence_transformers
+chromadb
+gradio
+pdfminer.six
+python-dotenv
+langchain
+langchain_community
+langchain_huggingface
+pypdf
+torch
+sentencepiece  # ✅ Required for Mistral-7B
+spaces
+huggingface_hub
