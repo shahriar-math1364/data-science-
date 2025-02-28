@@ -24,22 +24,22 @@ I’m a **mathematician, data scientist, and machine learning enthusiast** with 
 ---
 
 ## **🚀 Featured Projects**
-### 📌 [1. Psychology Textbook RAG Chatbot](https://github.com/shahriar-math1364/data-science-/tree/main/Project1)
+### 📌 [1. Psychology Textbook RAG Chatbot](https://github.com/shahriar-math1364/data-science-/tree/main/Psychology_Chatbot)
 🔹 Built a **Retrieval-Augmented Generation (RAG)** chatbot using **LangChain & ChromaDB**  
 🔹 Designed to provide instant answers from psychology textbooks  
 🔹 Deployed on **Hugging Face Spaces** for user interaction  
 
-### 📌 [2. Used Car Price Prediction](https://github.com/shahriar-math1364/data-science-/tree/main/Project2)
+### 📌 [2. Used Car Price Prediction](https://github.com/shahriar-math1364/data-science-/tree/main/Used_Car_Price_Prediction)
 🔹 Developed a machine learning model to predict car prices based on real-world datasets  
 🔹 Used **Decision Trees, Random Forest, and Gradient Boosting**  
 🔹 Optimized model using **feature engineering and hyperparameter tuning**  
 
-### 📌 [3. Sleep-Stress Classification](https://github.com/shahriar-math1364/data-science-/tree/main/Project3)
+### 📌 [3. Sleep-Stress Classification](https://github.com/shahriar-math1364/data-science-/tree/main/Sleep_Stress_Classification)
 🔹 Classified stress levels using **XGBoost and Support Vector Machines**  
 🔹 Applied **feature engineering and hyperparameter tuning**  
 🔹 Designed to offer insights into **health monitoring applications**  
 
-### 📌 [4. Tomato Disease Classification](https://github.com/shahriar-math1364/data-science-/tree/main/Project4)
+### 📌 [4. Tomato Disease Classification](https://github.com/shahriar-math1364/data-science-/tree/main/Tomato_Disease_Classification)
 🔹 Built a **Convolutional Neural Network (CNN)** to classify tomato diseases  
 🔹 Implemented **data augmentation techniques** to improve generalization  
 🔹 Useful for **precision agriculture and plant disease detection**  
