@@ -1,144 +1,59 @@
-# Shahriar Mirzadeh
+# **Shahriar Mirzadeh**  
+🎓 **PhD in Mathematics | Lecturer | Data Scientist | Machine Learning Enthusiast**  
 
-- **Email:** shahriar.mirzadeh@gmail.com  
-- **Phone:** (781) 296-5207
-- **LinkedIn:** [https://www.linkedin.com/in/shahriar-mirzadeh-4a90b861/](https://www.linkedin.com/in/shahriar-mirzadeh-4a90b861/)  
-- **GitHub:** [https://github.com/shahriar-math1364/data-science-](https://github.com/shahriar-math1364/data-science-) 
+📧 **Email:** [shahriar.mirzadeh@gmail.com](mailto:shahriar.mirzadeh@gmail.com)  
+📞 **Phone:** +1 (781) 296-5207  
+🔗 **LinkedIn:** [Shahriar Mirzadeh](https://www.linkedin.com/in/shahriar-mirzadeh-4a90b861/)  
+📂 **Portfolio/GitHub:** [GitHub Profile](https://github.com/shahriar-math1364/)  
 
-## 📌 Summary:
-Highly skilled mathematician with expertise in coding, machine learning, probability, statistics, and linear algebra. Proven experience in leveraging deep mathematical knowledge to tackle machine learning challenges. Adapted traditional mathematical principles to modern machine learning scenarios. Eager to bring analytical rigor to data-driven decision-making roles.
+---
 
-## Skills
-- Programming: Python (pandas, scikit-learn), R, SQL.
-- Data Analysis: Regression, Classification, Clustering, Anomaly Detection.
-- Tools: Jupyter Notebook, Power BI, Tableau, SQL Server, Git.
-- Mathematics: Probability, Statistics, Linear Algebra.
-- Deep Learning: TensorFlow, Keras.
+## **👋 About Me**
+I’m a **mathematician, data scientist, and machine learning enthusiast** with a **PhD in Mathematics from Brandeis University**. My expertise lies in **statistical modeling, predictive analytics, and deep learning**, with applications in **finance, healthcare, and AI research**. I enjoy **solving complex problems**, building **data-driven solutions**, and exploring the intersection of **mathematics and machine learning**.
 
+---
 
+## **🔧 Technical Skills**
+💻 **Programming:** Python (pandas, scikit-learn, TensorFlow, Keras), SQL, R  
+📊 **Data Analysis:** Regression, Classification, Clustering, Anomaly Detection  
+📉 **Data Visualization:** Power BI, Tableau, Matplotlib, Seaborn  
+🤖 **Machine Learning:** Neural Networks, NLP, Transformers, XGBoost  
+☁ **Cloud Computing:** AWS, Google Cloud, Azure, Spark  
+📚 **Mathematical Background:** Probability, Statistics, Linear Algebra, Ergodic Theory  
 
-## 🎓 Education:
-**Ph.D. in Mathematics,** Brandeis University, 2018  
-- *Thesis:* Dimension estimates for the set of points with non-dense orbit in homogeneous spaces  
-- *Mentor:* Prof. Dmitry Kleinbock
+---
 
-**M.Sc. in Mathematics,** Sharif University of Technology, Tehran, Iran, 2012
+## **🚀 Featured Projects**
+### 📌 [1. Psychology Textbook RAG Chatbot](https://github.com/shahriar-math1364/data-science-/tree/main/Project1)
+🔹 Built a **Retrieval-Augmented Generation (RAG)** chatbot using **LangChain & ChromaDB**  
+🔹 Designed to provide instant answers from psychology textbooks  
+🔹 Deployed on **Hugging Face Spaces** for user interaction  
 
-## 💼 Relevant Work Experience:
+### 📌 [2. Used Car Price Prediction](https://github.com/shahriar-math1364/data-science-/tree/main/Project2)
+🔹 Developed a machine learning model to predict car prices based on real-world datasets  
+🔹 Used **Decision Trees, Random Forest, and Gradient Boosting**  
+🔹 Optimized model using **feature engineering and hyperparameter tuning**  
 
-- **Visiting Assistant Professor of Mathematics,** Michigan State University, 2018-2021  
-  - Taught courses in Probability, Statistics, and Linear Algebra.
-  - Emphasized algorithmic understanding foundational for data science.
-  - Explored mathematical applications in machine learning.
+### 📌 [3. Sleep-Stress Classification](https://github.com/shahriar-math1364/data-science-/tree/main/Project3)
+🔹 Classified stress levels using **XGBoost and Support Vector Machines**  
+🔹 Applied **feature engineering and hyperparameter tuning**  
+🔹 Designed to offer insights into **health monitoring applications**  
 
-- **Lecturer in Mathematics,** Brandeis University, 2021-2022  
-  - Integrated computational methods with courses in Probability and Statistics.
-  - Promoted synergy between mathematics and data science.
+### 📌 [4. Tomato Disease Classification](https://github.com/shahriar-math1364/data-science-/tree/main/Project4)
+🔹 Built a **Convolutional Neural Network (CNN)** to classify tomato diseases  
+🔹 Implemented **data augmentation techniques** to improve generalization  
+🔹 Useful for **precision agriculture and plant disease detection**  
 
-- **Visiting Assistnat Professor of Mathematics,** University of Cincinnati, 2022-2023  
-  - Bridged traditional mathematics with modern machine learning practices through Linear Algebra instruction.
+---
 
-- **Course Lead,** Python for Linear Algebra, Spring 2022  
-  - Emphasized practical application of Python in data science and machine learning.
-  - Guided students in computational mathematics using Python.
+## **📜 Certifications**
+📌 [AI for Medical Diagnosis – Coursera](https://www.coursera.org/account/accomplishments/verify/M8KPHRP2X49R)  
+📌 [Python for Data Science, AI & Development – Coursera](https://www.coursera.org/account/accomplishments/certificate/9KTPV6X78R4E)  
+📌 [Databases and SQL for Data Science – Coursera](https://www.coursera.org/account/accomplishments/certificate/AUSZGZXG8KZ2)  
+📌 [Machine Learning with Python – Coursera](https://www.coursera.org/account/accomplishments/certificate/PKSDBTXUA33N)  
 
+---
 
-## Machine Learning Projects
-
-### Used Car Price Prediction
-
-This repository hosts a machine learning model focused on predicting used car prices based on a variety of factors, such as car make, mileage, age, and location.
-
-#### Key Highlights
-
-- The dataset consists of over 10,000 records of used cars with attributes like `make`, `model`, `mileage`, `location`, and their corresponding `price`.
-- Explored data, conducted **preprocessing**, and performed **feature engineering** to optimize the input for machine learning models.
-- Utilized regression algorithms such as **Linear Regression**, **Random Forest**, and **Gradient Boosting**. Implemented **GridSearchCV** for hyperparameter tuning and model optimization to determine the best-performing model.
-- Accomplished a significant R^2 score, showcasing the model's accuracy in predicting used car prices.
-
-#### Links
-🔗 **Detailed Project Page**: [Click here](https://github.com/shahriar-math1364/data-science-/tree/main/Project1)  
-🚀 **Live Deployment**: [Try it out](http://13.58.23.77:5000)
-
-
-
-
-
-
-
-
-
-### Sleep-Stress Classification Project
-
-This repository contains a data-driven project that analyzes and predicts stress levels based on various factors like sleep patterns, occupation, physical activity, and more.
-#### Key Highlights
-
-- Data preprocessing and feature engineering performed on `Sleep.csv`, a dataset with numerous variables including occupation, gender, heart rate, etc.
-- Employed various classification models: **Support Vector Machine**, **Logistic Regression**, and **XGBoost**.
-- Applied **GridSearchCV** for hyperparameter tuning on the XGBoost model, achieving an accuracy of approximately 92%.
-- Model artifacts, including the best-performing model and relevant features, are saved for future deployment.
-
-#### Links
-🔗 **Detailed Project Page**: [Click here](https://github.com/shahriar-math1364/data-science-/tree/main/Project2)  
-🚀 **Live Deployment**: [Try it out](http://13.58.23.77:2000)
-
-
-
-### Women Celebrity Image Classifier using SVM
-
-An image classification project that identifies and classifies images of Katy Perry, Rihanna, Lady Gaga, and Beyoncé using non-deep learning methods.
-
-#### Overview
-
-- **Purpose**: The aim is to showcase an alternative to deep learning-based image classification by employing traditional machine learning techniques.
-- **Facial Detection**: Utilizes **OpenCV** for facial image processing and isolation.
-- **Feature Extraction**: Implements **Wavelet Transform** to extract features from images.
-- **Model Selection**: Multiple machine learning models were trained. **Support Vector Machine (SVM)** turned out to be the most accurate and is therefore the model of choice for this project.
-- **Fine-tuning**: Used **GridSearchCV** to refine the model parameters and achieve optimal classification accuracy.
-
-#### Key Features
-
-- **Accurate Classification**: Achieved notable accuracy in distinguishing between the celebrities using the **SVM** model.
-- **Model Export**: The trained model is exported for further deployment using `pickle`.
-
-#### Resources
-
-- **Project Link**: [Click here](https://github.com/shahriar-math1364/data-science-/tree/main/Project3)
-- **Deployment Link**: [Click here](http://3.12.160.18:5000)
-
-
-### Tomato Image Classification Project using CNN
-
-#### Overview
-
-This project is centered around the **multiclass classification** of tomato diseases using a **Convolutional Neural Network (CNN)**. It is designed to classify tomatoes into the following classes: Bacterial Spot, Early Blight, Late Blight, Leaf Mold, Septoria Leaf Spot, Spider Mites (Two-spotted spider mite), Target Spot, Tomato Yellow Leaf Curl Virus, Tomato Mosaic Virus, and Healthy.
-Outlined below are the phases of this project:
-- Loading and processing tomato images from a **Google Drive directory**.
-- Applying **data augmentation techniques** like random flips and rotations for better generalization.
-- Constructing a **Convolutional Neural Network (CNN)** using **TensorFlow** and **Keras** libraries for image classification.
-- Training the model, evaluating its performance, and visualizing the classification results.
-
-#### Key Features
-
-- **Image Loading**: Efficiently loads and labels images using TensorFlow's capabilities.
-- **Data Augmentation**: Enhances training data variety through random transformations.
-- **CNN Architecture**: Multi-layered CNN architecture for intricate feature extraction from images.
-- **Model Evaluation**: Performance assessed on a test dataset, with visual comparisons between model predictions and actual labels.
-- **Model Export**: The trained model is saved as `tomatoes.h5` for potential deployment and further use.
-
-#### Resources
-
-- **Project Link**: [Click here](https://github.com/shahriar-math1364/data-science-/tree/main/Project4)
-- **Deployment Link**: [Click here](http://3.12.160.18:8000)
-
-
-## Certifications
-- AI for Medical Diagnosis, Coursera, Issued June 2023 - [Certificate](https://www.coursera.org/account/accomplishments/verify/M8KPHRP2X49R)
-- Python for Data Science, AI & Development, Coursera, Issued December 2022 - [Certificate](https://www.coursera.org/account/accomplishments/certificate/9KTPV6X78R4E)
-- Databases and SQL for Data Science with Python, Coursera, Issued December 2022 - [Certificate](https://www.coursera.org/account/accomplishments/certificate/AUSZGZXG8KZ2)
-- Machine Learning with Python, Coursera, Issued December 2022 - [Certificate](https://www.coursera.org/account/accomplishments/certificate/PKSDBTXUA33N)
-
-
-
-
-
+## **📫 Let's Connect!**
+💬 Always open to discussing **data science, AI, mathematics, and new collaboration opportunities**!  
+📧 **Email me at** [shahriar.mirzadeh@gmail.com](mailto:shahriar.mirzadeh@gmail.com)  
